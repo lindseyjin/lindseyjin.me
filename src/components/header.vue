@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img id="background-image" src = "../../static/img/background.png"/>
+    <img id="background-image" src = "../../static/img/geometric_background.png"/>
     <hr/>
     <!-- <div class="overlay">
       <h1>Lindsey Jin</h1>
@@ -29,9 +29,10 @@
   }
   #background-image {
     /*todo: responsive width */
-    height: 450px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
+    opacity: 0.7;
   }
   hr {
     border: none;

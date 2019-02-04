@@ -1,11 +1,13 @@
 <template>
   <div class="app-container">
-    <h1>ABOUT</h1>
-    <div class="speech-bubble">
-       Hi, my name is Lindsey Jin. I'm currently studying Software Engineering at the University of Waterloo.
-      write a lot more aaaaaaaaaaaaaaaaaaaaaaaaa
-      asdf.kkahshkfjhaekej akejfahksjdfhksj
-    </div>
+    <!-- <h1>ABOUT</h1> -->
+    <div style="display: inline-block;">
+      <img class="profile-pic" src="../../static/img/me.jpg" alt="Avatar">
+      <div class="speech-bubble">
+        Hi, my name is Lindsey Jin. I'm currently studying as a Software Engineering student at the University of Waterloo.
+        Feel free to check out my resume or my Github. I like going to hackathons and reading and birds.
+      </div>
+    </div> 
   </div>
 </template>
 
@@ -17,18 +19,22 @@
     }
   }
 </script>
-<style>
+<style scoped>
   .app-container {
-    width: 85%;
-    margin: auto;
+    /* width: 70%; */
+    text-align: center;
+    margin: 120px 0;
   }
   .speech-bubble {
+    float: right;
     position: relative;
-    background: #d19ef8;
+    background: #bac;
     border-radius: .4em;
     width: 400px;
     padding: 40px;
+    margin-top: 30px;
   }
+  /* TODO: fix speech bubble and add shadow? also add border to img maybe */
 .speech-bubble:after {
     content: '';
     position: absolute;
@@ -41,6 +47,12 @@
     border-left: 0;
     border-bottom: 0;
     margin-top: -17px;
-    margin-left: -34px;
+    margin-left: -34
+  }
+  img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 60px;
   }
 </style>

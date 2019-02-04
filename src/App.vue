@@ -1,15 +1,17 @@
 <template>
-  <div class="no-margin">
+  <div>
     <Header></Header>
     <router-view/>
+    <Projects></Projects>
   </div>
 </template>
 
 <script>
   import Header from './components/header'
+  import Projects from './components/projects'
   export default {
     name: 'App',
-    components: {Header}
+    components: {Header, Projects}
   }
 </script>
 
@@ -19,6 +21,7 @@
     width: 100%;
   }
   body {
+    background-color: #fffafa;
     height: 100%;
     margin: 0;
   }
