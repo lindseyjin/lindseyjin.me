@@ -2,7 +2,7 @@
   <div>
     <img id="background-image" src = "../../static/img/background.png"/>
     <hr/>
-    <div class="overlay">
+    <!-- <div class="overlay">
       <h1>Lindsey Jin</h1>
       <ul>
         <li><a href="default.asp">Home</a></li>
@@ -10,7 +10,7 @@
         <li><a href="contact.asp">Contact</a></li>
         <li><a href="about.asp">About</a></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </template>
 
