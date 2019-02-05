@@ -2,16 +2,18 @@
   <div>
     <Header></Header>
     <router-view/>
+      <Resume></Resume>
     <Projects></Projects>
   </div>
 </template>
 
 <script>
   import Header from './components/header'
+  import Resume from './components/resume'
   import Projects from './components/projects'
   export default {
     name: 'App',
-    components: {Header, Projects}
+    components: {Header, Resume, Projects}
   }
 </script>
 
