@@ -2,15 +2,6 @@
   <div>
     <img id="background-image" src = "../../static/img/geometric_background.png"/>
     <hr/>
-    <!-- <div class="overlay">
-      <h1>Lindsey Jin</h1>
-      <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    </div> -->
   </div>
 </template>
 
@@ -23,10 +14,6 @@
   }
 </script>
 <style>
-  .overlay {
-    width: 70%;
-    margin: auto;
-  }
   #background-image {
     /*todo: responsive width */
     height: 100%;

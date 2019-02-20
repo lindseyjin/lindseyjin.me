@@ -27,7 +27,7 @@
   }
   img {
     width: 300px;
-    border: 5px solid #bac;
+    border: 5px solid #ae98aa;
     border-radius: 50%;
     float: left;
     margin-right: 60px;
@@ -35,7 +35,7 @@
   .speech-bubble {
     float: right;
     position: relative;
-    background: #bac;
+    background: #ae98aa;
     border-radius: .4em;
     width: 400px;
     padding: 40px;
@@ -50,7 +50,7 @@
     width: 0;
     height: 0;
     border: 34px solid transparent;
-    border-right-color: #bac;
+    border-right-color: #ae98aa;
     border-left: 0;
     border-bottom: 0;
     margin-top: -17px;

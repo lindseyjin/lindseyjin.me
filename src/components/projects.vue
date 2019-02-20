@@ -1,13 +1,28 @@
 <template>
   <div class="app-container">
     <h1>PROJECTS</h1>
-    <h2>WHY IS THIS NOT SHOWING UP</h2>
     <div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="">
+            <div class="col card">
+                <img class="card-img" src="../../static/img/lift.png" alt="lift">
+                <div class="container">
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                </div>
+            </div>
+            <div class="col card">
+                <img class="card-img" src="../../static/img/screenshot2.png" alt="lift">
+                <div class="container">
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                </div>
+            </div>
+                        <div class="col card">
+                <img class="card-img" src="../../static/img/screenshot2.png" alt="lift">
+                <div class="container">
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                </div>
             </div>
         </div>
     </div> 
@@ -27,5 +42,20 @@
     width: 80%;
     /* text-align: center; */
     margin: 120px auto;
+  }
+  .col {
+    float: left;
+    margin-bottom: 120px;
+  }
+  .card {
+    width: 30%;
+    margin-right: 30px;
+    border-radius: 25px;
+    height: 200px;
+    overflow: hidden;
+  }
+  .card-img {
+    max-width:100%;
+    max-height:100%;
   }
 </style>

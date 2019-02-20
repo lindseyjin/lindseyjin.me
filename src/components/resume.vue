@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <h1>RESUME</h1>
+    <h1>change to skills section instead maybe?</h1>
     <span>Open as pdf</span>
   </div>
 </template>
