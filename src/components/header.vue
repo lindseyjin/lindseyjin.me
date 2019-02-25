@@ -7,6 +7,9 @@
     <div id="name">
         LINDSEY JIN
     </div>
+    <div id="linkedin">
+      <i class="fab fa-linkedin"></i>
+    </div>
     <!-- <hr/> -->
   </div>
 </template>
@@ -33,10 +36,19 @@ export default {
   left: 25%;
   /* transform: translate(-50%, -50%); */
   width: 300px;
+  height: 300px;
   text-align: right;
-  font-size: 5rem;
+  font-size: 80px;
   font-family: Koho;
   color: #FBF4E4;
+  line-height: 100px;
+}
+
+#linkedin {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    line-height: 40px;
 }
 
 hr {
