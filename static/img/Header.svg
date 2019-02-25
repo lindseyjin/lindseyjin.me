@@ -1,0 +1,25 @@
+<svg width="1639" height="885" viewBox="0 0 1639 885" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1639" height="885" fill="#E5E5E5"/>
+<g clip-path="url(#clip0)">
+<rect width="1639" height="885" fill="white"/>
+<rect x="-232.704" y="-93.962" width="1991.2" height="1094.54" fill="#AE98AA"/>
+<path opacity="0.8" d="M1361.02 295.254L436.157 -48.3839L2030.18 -48.3839L1361.02 295.254Z" fill="#E0BFBF"/>
+<path opacity="0.8" d="M1913 489L2582.54 1165.31L-43.3893 1059.48L1913 489Z" fill="#C4C4C4"/>
+<path opacity="0.8" d="M489.072 540.243L1180.28 922.226H-141.037L489.072 540.243Z" fill="#E0BFBF"/>
+<g style="mix-blend-mode:overlay">
+<line x1="-173.413" y1="327.474" x2="1089.94" y2="975.688" stroke="#E8D79B" stroke-width="9.92164"/>
+</g>
+<g style="mix-blend-mode:overlay">
+<line x1="-387.169" y1="332.554" x2="1835.72" y2="-283.559" stroke="#E8D79B" stroke-width="9.92164"/>
+</g>
+<path opacity="0.8" d="M-195.567 157.93L968.618 -138.679L-267.626 -68.1206L-195.567 157.93Z" fill="#EBE7DC"/>
+<g style="mix-blend-mode:overlay">
+<path d="M1176.9 792.284L1686.63 123.78L2213.8 778.628L1176.9 792.284Z" stroke="#E8D79B" stroke-width="9.92164"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1639" height="885" fill="white"/>
+</clipPath>
+</defs>
+</svg>

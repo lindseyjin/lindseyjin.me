@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="container">
     <Header></Header>
-    <div id="navbar">
+    <!-- <div id="navbar">
       <a href="#about">Home</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-    </div>
+    </div> -->
     <router-view />
     <Projects></Projects>
   </div>
@@ -22,8 +22,7 @@ export default {
 </script>
 
 <style>
-#header-image {
-  height: 400px;
+.container {
   width: 100%;
 }
 body {
