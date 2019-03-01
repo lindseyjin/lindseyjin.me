@@ -5,10 +5,25 @@
       src="../../static/img/Header.svg"
     />
     <div id="name">
-        LINDSEY JIN
+      LINDSEY JIN
     </div>
-    <div id="linkedin">
-      <i class="fab fa-linkedin"></i>
+    <hr>
+    <div class="links-wrapper">
+      <a href="https://github.com/lindseyjin" target="_blank">
+        <button class="btn-link">
+          <span class="btn-text">Github <i class="fab fa-github"></i></span>
+        </button>
+      </a>
+      <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">
+        <button class="btn-link">
+          <span class="btn-text">LinkedIn <i class="fab fa-linkedin"></i></span>
+        </button>
+      </a>
+      <a href="./../../static/docs/resume.pdf" target="_blank">
+        <button class="btn-link">
+          <span class="btn-text">Resume <i class="fas fa-file"></i></span>
+        </button>
+      </a>
     </div>
     <!-- <hr/> -->
   </div>
@@ -32,30 +47,40 @@ export default {
 }
 #name {
   position: absolute;
-  top: 30%;
-  left: 25%;
-  /* transform: translate(-50%, -50%); */
-  width: 300px;
-  height: 300px;
-  text-align: right;
-  font-size: 80px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 90px;
   font-family: Koho;
-  color: #FBF4E4;
-  line-height: 100px;
+  font-weight: 600;
+  color: #fbf4e4;
 }
-
-#linkedin {
-    position: absolute;
-    top: 30%;
-    left: 55%;
-    line-height: 40px;
+.links-wrapper {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 40px;
 }
-
+.btn-link {
+  border: 2px solid #fbf4e4;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fbf4e4;
+  padding: 10px 15px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-link:hover {
+  background-color: #8e7094;
+}
+.btn-text {
+}
 hr {
-  border: none;
-  margin-top: -0.5em;
-  padding: 0;
-  height: 10px;
-  background-color: #cd9dd9;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 20%;
 }
 </style>
