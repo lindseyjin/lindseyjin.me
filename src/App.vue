@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <Header></Header>
     <!-- <div id="navbar">
       <a href="#about">Home</a>
@@ -8,7 +8,7 @@
       <a href="#contact">Contact</a>
     </div> -->
     <router-view />
-    <Projects></Projects>
+    <!-- <Projects></Projects> -->
   </div>
 </template>
 
@@ -21,15 +21,8 @@ export default {
 };
 </script>
 
-<style>
-.container {
-  width: 100%;
-}
-body {
-  background-color: #f5f3ef;
-  height: 100%;
-  margin: 0;
-}
+<style scoped>
+
 #navbar {
   overflow: hidden;
   background-color: #333;
