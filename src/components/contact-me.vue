@@ -1,7 +1,10 @@
 <template>
   <div class="app-container">
-    <h1>Where To Find Me</h1>
-    <span>Open as pdf</span>
+    <div class="hr-sect">
+      <h1>CONTACT ME</h1>
+    </div>
+
+    <span>Where else to find me:</span>
   </div>
 </template>
 

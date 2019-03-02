@@ -2,6 +2,7 @@
   <div>
     <Header/>
     <AboutMe/>
+    <Skills/>
     <!-- <div id="navbar">
       <a href="#about">Home</a>
       <a href="#skills">Skills</a>
@@ -17,12 +18,13 @@
 <script>
 import Header from './components/header';
 import AboutMe from './components/about-me'
+import Skills from './components/skills';
 import Projects from './components/projects';
 import ContactMe from './components/contact-me';
 
 export default {
   name: "App",
-  components: { Header, AboutMe, Projects, ContactMe }
+  components: { Header, Skills, AboutMe, Projects, ContactMe }
 };
 </script>
 

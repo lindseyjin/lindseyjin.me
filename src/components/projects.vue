@@ -1,6 +1,8 @@
 <template>
   <div class="app-container">
-    <h1>PROJECTS</h1>
+    <div class="hr-sect">
+      <h1>PROJECTS</h1>
+    </div>
     <div>
         <div class="">
             <div class="col card">
