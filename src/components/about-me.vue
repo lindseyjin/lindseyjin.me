@@ -1,6 +1,6 @@
 <template>
   <div class="app-container">
-    <!-- <h1>ABOUT</h1> -->
+    <h1>ABOUT ME</h1>
     <div style="display: inline-block;">
       <img class="profile-pic" src="../../static/img/me.jpg" alt="Avatar">
       <div class="speech-bubble">
@@ -21,6 +21,7 @@
 </script>
 <style scoped>
   .app-container {
+    height: 100vh;
     /* width: 70%; */
     text-align: center;
     margin: 120px 0;

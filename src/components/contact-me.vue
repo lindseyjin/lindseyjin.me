@@ -1,13 +1,13 @@
 <template>
   <div class="app-container">
-    <h1>change to skills section instead maybe?</h1>
+    <h1>Where To Find Me</h1>
     <span>Open as pdf</span>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'Resume',
+    name: 'ContactMe',
     data () {
       return {}
     }
@@ -15,6 +15,7 @@
 </script>
 <style scoped>
   .app-container {
+      height: 100vh;
     width: 80%;
     /* text-align: center; */
     margin: 120px auto;

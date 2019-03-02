@@ -39,6 +39,7 @@
 </script>
 <style scoped>
   .app-container {
+    height: 100vh;
     width: 80%;
     /* text-align: center; */
     margin: 120px auto;

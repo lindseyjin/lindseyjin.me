@@ -1,23 +1,28 @@
 <template>
   <div>
-    <Header></Header>
+    <Header/>
+    <AboutMe/>
     <!-- <div id="navbar">
       <a href="#about">Home</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div> -->
-    <router-view />
-    <!-- <Projects></Projects> -->
+    <!-- <router-view /> -->
+    <Projects/>
+    <ContactMe/>
   </div>
 </template>
 
 <script>
-import Header from "./components/header";
-import Projects from "./components/projects";
+import Header from './components/header';
+import AboutMe from './components/about-me'
+import Projects from './components/projects';
+import ContactMe from './components/contact-me';
+
 export default {
   name: "App",
-  components: { Header, Projects }
+  components: { Header, AboutMe, Projects, ContactMe }
 };
 </script>
 

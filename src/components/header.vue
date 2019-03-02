@@ -7,8 +7,8 @@
       <div id="intro">
         <vue-typer
           text='Hello World! Welcome to my website.'
-          erase-style='clear-all'
-          pre-erase-delay='3000'
+          erase-style='clear'
+          pre-erase-delay='4000'
         ></vue-typer>
       </div>
       <div class="links-wrapper">
@@ -74,14 +74,15 @@ export default {
   font-family: Koho;
   font-weight: 600;
   color: #fbf4e4;
+  margin: 20px 0;
 }
 
 #intro {
   position: relative;
   font-family: "Source Code Pro", monospace;
-  font-size: 18px;
+  font-size: 16px;
   word-wrap:break-word;
-  margin: 30px 0 50px;
+  margin: 30px 0 40px;
 }
 
 .links-wrapper {
@@ -95,7 +96,7 @@ export default {
   color: #fbf4e4;
   background-color: transparent;
   padding: 10px 15px;
-  margin: 10px;
+  margin: 15px;
   font-size: 16px;
   cursor: pointer;
 }
