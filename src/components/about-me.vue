@@ -36,7 +36,7 @@ export default {
   margin-top: 60px;
 }
 .content {
-  margin-top: 80px;
+  margin-top: 70px;
   display: inline-block;
 }
 img {
