@@ -13,14 +13,14 @@
                 </div>
             </div>
             <div class="col card">
-                <img class="card-img" src="../../static/img/screenshot2.png" alt="lift">
+                <img class="card-img" src="/../../static/img/screenshot2.png" alt="lift">
                 <div class="container">
                     <h4><b>John Doe</b></h4> 
                     <p>Architect & Engineer</p> 
                 </div>
             </div>
                         <div class="col card">
-                <img class="card-img" src="../../static/img/screenshot2.png" alt="lift">
+                <img class="card-img" src="/../../static/img/screenshot2.png" alt="lift">
                 <div class="container">
                     <h4><b>John Doe</b></h4> 
                     <p>Architect & Engineer</p> 
