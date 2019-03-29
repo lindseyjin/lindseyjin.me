@@ -2,7 +2,7 @@
   <div>
     <Header/>
     <AboutMe/>
-    <Skills/>
+    <!-- <Skills/> -->
     <!-- <div id="navbar">
       <a href="#about">Home</a>
       <a href="#skills">Skills</a>

@@ -5,14 +5,16 @@
     </div>
     <div class="content">
       <img
-        src="/../../static/img/me.jpg"
+        src="../../static/img/me.jpg"
         alt="Avatar"
       >
       <div class="speech-bubble">
         <p>
           Hi, I'm Lindsey!
-          I'm about to enter  my 2B term of Software Engineering at the University of Waterloo. I like going to hackathons and reading and birds.
-          Feel free to check out my resume or my Github. Fix this description part later.
+          I'm currently heading into my 2B term of Software Engineering at the University of Waterloo. 
+          I love learning new things and I'm passionate about efficient programming. In my spare time, 
+          I like going to hackathons, reading, and birds!
+          Feel free to browse through my website. Thanks for visiting!
         </p>
       </div>
     </div>
@@ -31,7 +33,7 @@ export default {
 .app-container {
   height: 100vh;
   text-align: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   margin-top: 60px;
 }
@@ -51,7 +53,7 @@ img {
   position: relative;
   background: #ae98aa;
   border-radius: 0.4em;
-  width: 400px;
+  width: 500px;
   padding: 40px;
   margin-top: 30px;
 }

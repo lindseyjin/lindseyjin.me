@@ -3,24 +3,49 @@
     <div class="hr-sect">
       <h1>CONTACT ME</h1>
     </div>
-
-    <span>Where else to find me:</span>
+    <div class="contact">
+      <h3 class="contact-label">Let's get in touch!</h3>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i> 
+        <a href="mailto:lindseyjinlj@gmail.com">lindseyjinlj@gmail.com</a>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/lindseyjin" target="_blank">github.com/lindseyjin</a>
+      </div>
+      <div class="contact-item">
+        <i class="fab fa-linkedin"></i> 
+        <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">linkedin.com/in/lindsey-jin</a>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'ContactMe',
-    data () {
-      return {}
-    }
+export default {
+  name: "ContactMe",
+  data() {
+    return {};
   }
+};
 </script>
 <style scoped>
-  .app-container {
-      height: 100vh;
-    width: 80%;
-    /* text-align: center; */
-    margin: 120px auto;
-  }
+.app-container {
+  width: 90%;
+  text-align: center;
+  margin: 120px auto;
+}
+.contact {
+  width: 40%;
+  margin: 20px auto;
+  background: #dfdad8;
+  padding: 20px 40px;
+}
+.contact-label {
+  padding-bottom: 10px;
+}
+.contact-item {
+  font-size: 16px;
+  margin: 10px 0;
+}
 </style>

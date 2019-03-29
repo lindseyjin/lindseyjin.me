@@ -60,20 +60,21 @@ export default {
 }
 
 .content-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  top: 20%;
+  margin: auto;
+  /* transform: translate(-50%, -50%); */
+  /* -webkit-filter: blur(0); */
   text-align: center;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 #name {
   position: relative;
-  font-size: 90px;
+  font-size: 100px;
   font-family: Koho;
   font-weight: 600;
-  color: #fbf4e4;
+  color: #fdf9f1;
   margin: 20px 0;
 }
 
@@ -93,7 +94,7 @@ export default {
 .btn-link {
   border: 2px solid #fbf4e4;
   border-radius: 25px;
-  color: #fbf4e4;
+  color: #fdf9f1;
   background-color: transparent;
   padding: 10px 15px;
   margin: 15px;
