@@ -61,12 +61,13 @@ export default {
 
 .content-wrapper {
   position: relative;
-  top: 20%;
   margin: auto;
-  /* transform: translate(-50%, -50%); */
-  /* -webkit-filter: blur(0); */
   text-align: center;
   padding: 40px 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #name {
@@ -76,6 +77,7 @@ export default {
   font-weight: 600;
   color: #fdf9f1;
   margin: 20px 0;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 #intro {
@@ -100,6 +102,7 @@ export default {
   margin: 15px;
   font-size: 16px;
   cursor: pointer;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .btn-link:hover {

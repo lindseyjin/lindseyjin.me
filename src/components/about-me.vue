@@ -11,10 +11,12 @@
       <div class="speech-bubble">
         <p>
           Hi, I'm Lindsey!
-          I'm currently heading into my 2B term of Software Engineering at the University of Waterloo. 
-          I love learning new things and I'm passionate about efficient programming. In my spare time, 
-          I like going to hackathons, reading, and birds!
-          Feel free to browse through my website. Thanks for visiting!
+          I'm currently in my 2B term of Software Engineering at the University of Waterloo. 
+          I love learning new things and I'm excited to learn about more efficient ways of programming. 
+          Outside of school, my interests include 
+          <a href="https://goodreads.com/user/show/14001282-lindsey" target="_blank">books</a>, attending 
+          <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>, board games, and birds!
+          Feel free to reach out to me if you'd like to chat. Thanks for visiting!
         </p>
       </div>
     </div>
