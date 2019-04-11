@@ -5,18 +5,23 @@
     </div>
     <div class="content">
       <img
-        src="/../../static/img/me.jpg"
+        src="@/../static/img/me.jpg"
         alt="Avatar"
       >
       <div class="speech-bubble">
         <p>
           Hi, I'm Lindsey!
-          I'm currently in my 2B term of Software Engineering at the University of Waterloo. 
-          I love learning new things and I'm excited to learn about more efficient ways of programming. 
-          Outside of school, my interests include 
+          I'm a second year Software Engineering student at the University of Waterloo. 
+        </p>
+        <p>
+          Right now, I'm cooping as a full-stack developer at Genesys, and I'm currently in search of internships for Fall 2019. 
+          I love learning new things and experimenting with different tools and frameworks, and I'm always looking for more efficient ways to program.
+          <!-- Outside of school, my interests include 
           <a href="https://goodreads.com/user/show/14001282-lindsey" target="_blank">books</a>, attending 
-          <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>, board games, and birds!
-          Feel free to reach out to me if you'd like to chat. Thanks for visiting!
+          <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>, board games, and birds! -->
+        </p>
+        <p>
+          Feel free to reach out to me if you'd like to chat. Thanks for dropping by!
         </p>
       </div>
     </div>
@@ -56,8 +61,9 @@ img {
   background: #ae98aa;
   border-radius: 0.4em;
   width: 500px;
-  padding: 40px;
-  margin-top: 30px;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: left;
 }
 .speech-bubble:after {
   content: "";
