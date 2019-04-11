@@ -1,6 +1,6 @@
 <template>
   <div class="col card">
-    <img class="card-img" src="@/../static/img/lift.png" alt="lift" />
+    <img class="card-img" src="!@/assets/lift.png" alt="lift" />
     <div class="card-body">
       <h4><b>Lift</b></h4>
       <p>paste project description</p>
