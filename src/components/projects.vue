@@ -7,8 +7,17 @@
         Sorry, this part is still under construction!
     </h3>
     <div class="">
-        <ProjectCard/>
-        <ProjectCard/>
+        <ProjectCard
+        url="../../static/img/lift.png"
+        name="Lift"
+        desc="Insert project description"
+        />
+        <ProjectCard
+        url="../../static/img/screenshot.png"
+        name="Passport-Plus"
+        desc="Insert project description"
+        />
+        <!-- fruityFun, add deScribe, bash the ballot, my github favs, tutorconect, online conway simulator? what else? -->
     </div>
   </div> 
 </template>

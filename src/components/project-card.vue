@@ -1,9 +1,9 @@
 <template>
   <div class="col card">
-    <img class="card-img" src="!@/assets/lift.png" alt="lift" />
+    <img class="card-img" :src="url" alt="lift" />
     <div class="card-body">
-      <h4><b>Lift</b></h4>
-      <p>paste project description</p>
+      <h4><b> {{name}} </b></h4>
+      <p> {{desc}} </p>
     </div>
   </div>
 </template>
@@ -11,7 +11,7 @@
 <script>
   export default {
     name: 'ProjectCard',
-    props: [],
+    props: ['url', 'name', 'desc'],
     data () {
       return {}
     }
@@ -30,13 +30,9 @@
     background: #fff;
     width: 30%;
     margin: 15px;
-    /* position: relative;
-    
-    
-    height: 240px;
-    background: white; */
   }
   .card-img {
+    height: 20%;
     border-radius: 15px 15px 0 0;
     width: 100%;
   }
