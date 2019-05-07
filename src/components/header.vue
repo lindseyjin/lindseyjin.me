@@ -72,8 +72,8 @@ export default {
 
 #name {
   position: relative;
-  font-size: 100px;
-  font-family: Koho;
+  font-size: 110px;
+  font-family: Raleway;
   font-weight: 600;
   color: #fdf9f1;
   margin: 20px 0;
@@ -83,7 +83,7 @@ export default {
 #intro {
   position: relative;
   font-family: "Source Code Pro", monospace;
-  font-size: 16px;
+  font-size: 18px;
   word-wrap:break-word;
   margin: 30px 0 40px;
 }
@@ -97,15 +97,16 @@ export default {
   border: 2px solid #fbf4e4;
   border-radius: 25px;
   color: #fdf9f1;
-  background-color: transparent;
+  background-color: rgba(134,105,140,0.3);
   padding: 10px 15px;
   margin: 15px;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .btn-link:hover {
-  background-color: #826C86;
+  background-color:rgb(134, 105, 140)
+;
 }
 </style>

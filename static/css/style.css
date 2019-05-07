@@ -2,6 +2,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   color: #918890;
 }
+h1 {
+  font-size: 3.3em;
+}
 html, body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fdf9f1;

@@ -2,7 +2,7 @@
   <div class="col card">
     <img class="card-img" :src="url" alt="lift" />
     <div class="card-body">
-      <h4><b> {{name}} </b></h4>
+      <h3><b> {{name}} </b></h3>
       <p> {{desc}} </p>
     </div>
   </div>
@@ -41,5 +41,8 @@
   }
   .card-img:hover {
     opacity: 0.5;
+  }
+  .links {
+
   }
 </style>

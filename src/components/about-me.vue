@@ -3,6 +3,7 @@
     <div class="hr-sect">
       <h1>ABOUT ME</h1>
     </div>
+    <!-- <h1>// about me</h1> -->
     <div class="content">
       <img
         src="/../../static/img/me.jpg"
