@@ -73,7 +73,7 @@ export default {
 #name {
   position: relative;
   font-size: 110px;
-  font-family: Raleway;
+  font-family: 'Open Sans';
   font-weight: 600;
   color: #fdf9f1;
   margin: 20px 0;

@@ -29,18 +29,4 @@ export default {
 </script>
 
 <style scoped>
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-/* Navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
 </style>

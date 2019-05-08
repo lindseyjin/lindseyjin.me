@@ -33,7 +33,7 @@ export default {
 .app-container {
   width: 90%;
   text-align: center;
-  margin: 120px auto;
+  margin: 0px auto;
 }
 .contact {
   width: 40%;

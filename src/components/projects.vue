@@ -20,6 +20,12 @@
         desc="Website that displays information about exchange schools, scraped from 
         Waterloo Passport. Created using Vue.js, and Flask, and BeautifulSoup."
         />
+        <ProjectCard
+        url="../../static/img/screenshot.png"
+        name="Passport-Plus"
+        desc="Website that displays information about exchange schools, scraped from 
+        Waterloo Passport. Created using Vue.js, and Flask, and BeautifulSoup."
+        />
         <!-- fruityFun, add deScribe, bash the ballot, my github favs, tutorconect, online conway simulator? what else? -->
     </div>
   </div> 
@@ -40,9 +46,10 @@
 <style scoped>
   .app-container {
     height: 100vh;
-    width: 90%;
-    margin: 120px auto;
-  }
-
-
+    /* width: 90%; */
+    /* margin: 0 auto; */
+    padding: 0 5%;
+    padding-bottom: 120px;
+    background-color: #E0BFBF;
+  } 
 </style>

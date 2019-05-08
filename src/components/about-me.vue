@@ -43,7 +43,7 @@ export default {
   text-align: center;
   width: 90%;
   margin: auto;
-  margin-top: 60px;
+  padding-bottom: 120px;
 }
 .content {
   margin-top: 70px;
