@@ -5,7 +5,7 @@
     </div>
     <div class="content">
       <img
-        src="../../static/img/me.jpg"
+        src="/../../static/img/me.jpg"
         alt="Avatar"
       >
       <div class="speech-bubble">
