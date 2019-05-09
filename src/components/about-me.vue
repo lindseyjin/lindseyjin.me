@@ -1,12 +1,11 @@
 <template>
-  <div class="app-container">
+  <div class="website-section">
     <div class="hr-sect">
       <h1>ABOUT ME</h1>
     </div>
-    <!-- <h1>// about me</h1> -->
     <div class="content">
       <img
-        src="/../../static/img/me.jpg"
+        src="../../static/img/me.jpg"
         alt="Avatar"
       >
       <div class="speech-bubble">
@@ -38,28 +37,29 @@ export default {
 };
 </script>
 <style scoped>
-.app-container {
-  height: 100vh;
+.website-section {
   text-align: center;
-  width: 90%;
-  margin: auto;
+  padding: 0 5%;
+  /* margin: auto; */
   padding-bottom: 120px;
 }
 .content {
-  margin-top: 70px;
-  display: inline-block;
+  /* vertical-align:middle; */
+  /* margin: auto; */
+  margin-top: 40px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
 }
 img {
   width: 300px;
-  border: 6px solid #ae98aa;
+  border: 6px solid #C6B6C3;
   border-radius: 50%;
-  float: left;
   margin-right: 100px;
 }
 .speech-bubble {
-  float: right;
   position: relative;
-  background: #ae98aa;
+  background: #C6B6C3;
   border-radius: 0.4em;
   width: 500px;
   padding: 30px;
@@ -74,7 +74,7 @@ img {
   width: 0;
   height: 0;
   border: 34px solid transparent;
-  border-right-color: #ae98aa;
+  border-right-color: #C6B6C3;
   border-left: 0;
   border-bottom: 0;
   margin-top: -17px;

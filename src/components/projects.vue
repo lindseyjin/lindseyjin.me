@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div class="website-section">
     <div class="hr-sect">
       <h1>PROJECTS</h1>
     </div>
@@ -11,20 +11,21 @@
         <ProjectCard
         url="../../static/img/lift.png"
         name="Lift"
-        desc="Fitbit app that tracks a user's workout progress! Paired with companion web app that shows real time biometrics.
-        Fitbit SDK, Vue.js"
+        desc="Fitbit app that tracks a user's workout progress! Data is displayed on a companion web app that shows real time biometrics.
+        Winner at Hack the North 2018"
+        tools="Fitbit SDK, Vue.js"
         />
         <ProjectCard
         url="../../static/img/screenshot.png"
         name="Passport-Plus"
-        desc="Website that displays information about exchange schools, scraped from 
-        Waterloo Passport. Created using Vue.js, and Flask, and BeautifulSoup."
+        desc="Website that displays information about exchange schools, with data scraped from Waterloo Passport."
+        tools="Vue.js, Flask, BeautifulSoup."
         />
         <ProjectCard
-        url="../../static/img/screenshot.png"
-        name="Passport-Plus"
-        desc="Website that displays information about exchange schools, scraped from 
-        Waterloo Passport. Created using Vue.js, and Flask, and BeautifulSoup."
+        url="../../static/img/bashtheballot.png"
+        name="Bash the Ballot"
+        desc="Elections web app that verifies unique voter identity using smart contracts. Best Use of ConsenSys API at Hack the Valley 2"
+        tools="React, uPort"
         />
         <!-- fruityFun, add deScribe, bash the ballot, my github favs, tutorconect, online conway simulator? what else? -->
     </div>
@@ -44,12 +45,11 @@
 </script>
 
 <style scoped>
-  .app-container {
-    height: 100vh;
-    /* width: 90%; */
-    /* margin: 0 auto; */
+  .website-section {
+    /* margin: auto; */
     padding: 0 5%;
     padding-bottom: 120px;
-    background-color: #E0BFBF;
+    background-color: #dec5c8;
+    overflow: auto;
   } 
 </style>

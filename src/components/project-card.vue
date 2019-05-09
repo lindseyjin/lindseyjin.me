@@ -19,17 +19,28 @@
 </script>
 
 <style scoped>
+  @media (max-width: 900px) { 
+    .card {
+      /* margin: 0 10%; */
+      }
+   }
+
+  @media (min-width: 900px) {
+    .card {
+      width: 30%;
+      margin: 1.5%;
+    }
+  }
   .col {
     float: left;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 15px;
     background: #fff;
-    width: 30%;
-    margin: 15px;
+    position: relative;
   }
   .card-img {
     height: 20%;
@@ -37,12 +48,10 @@
     width: 100%;
   }
   .card-body {
+    height: 200px;
     padding: 2px 20px;
   }
   .card-img:hover {
     opacity: 0.5;
-  }
-  .links {
-
   }
 </style>

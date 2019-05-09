@@ -1,5 +1,5 @@
 <template>
-  <div class="app-container">
+  <div class="website-section">
     <div class="hr-sect">
       <h1>CONTACT ME</h1>
     </div>
@@ -30,10 +30,11 @@ export default {
 };
 </script>
 <style scoped>
-.app-container {
-  width: 90%;
+.website-section {
+  padding: 0 5%;
   text-align: center;
-  margin: 0px auto;
+  padding-bottom: 20px;
+  /* margin: auto; */
 }
 .contact {
   width: 40%;
