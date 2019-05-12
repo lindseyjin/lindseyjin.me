@@ -11,7 +11,7 @@
           pre-erase-delay='4000'
         ></vue-typer>
       </div>
-      <div class="links-wrapper">
+      <div>
         <a
           href="https://github.com/lindseyjin"
           target="_blank"
@@ -51,61 +51,82 @@ export default {
 </script>
 
 <style scoped>
-.app-container {
-  height: 100vh;
-  background-image: url("../../static/img/Header.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  @media (min-width: 600px) {
+    .app-container {
+      height: 100vh;
+    }
+    #name {
+      font-size: 120px;
+    }
+    .content-wrapper {
+      position: relative;
+      margin: auto;
+      text-align: center;
+      padding: 40px 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    #intro {
+      position: relative;
+      font-family: "Source Code Pro", monospace;
+      font-size: 18px;
+      word-wrap:break-word;
+      margin: 30px 0 40px;
+    }
+    .btn-link {
+      border: 2px solid #fbf4e4;
+      border-radius: 25px;
+      color: #fdf9f1;
+      background-color: rgba(134,105,140,0.3);
+      padding: 10px 15px;
+      margin: 15px;
+      font-size: 18px;
+      cursor: pointer;
+      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    }
+    .btn-link:hover {
+      background-color:#7e5876;
+      box-shadow: 0 9px 28px rgba(90, 90, 90, 0.3), 0 15px 12px rgba(83, 83, 83, 0.22);
+    }
+  }
+  @media (max-width: 600px) {
+    #name {
+      font-size: 80px;
+    }
+    .content-wrapper {
+      text-align: center;
+      padding: 50px 0;
+    }
+    #intro {
+      visibility: hidden;
+    }
+    .btn-link {
+      border: 2px solid #fbf4e4;
+      border-radius: 25px;
+      color: #fdf9f1;
+      background-color: rgb(134,105,140);
+      padding: 10px 15px;
+      margin: 15px;
+      font-size: 20px;
+      width: 50%;
+    }
+  }
 
-.content-wrapper {
-  position: relative;
-  margin: auto;
-  text-align: center;
-  padding: 40px 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+  .app-container {
+    background-image: url("../../static/img/Header.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-#name {
-  position: relative;
-  font-size: 120px;
-  font-family: 'Open Sans';
-  font-weight: 600;
-  color: #fdf9f1;
-  margin: 20px 0;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-
-#intro {
-  position: relative;
-  font-family: "Source Code Pro", monospace;
-  font-size: 18px;
-  word-wrap:break-word;
-  margin: 30px 0 40px;
-}
-
-.links-wrapper {
-  margin: auto;
-  display: table;
-}
-
-.btn-link {
-  border: 2px solid #fbf4e4;
-  border-radius: 25px;
-  color: #fdf9f1;
-  background-color: rgba(134,105,140,0.3);
-  padding: 10px 15px;
-  margin: 15px;
-  font-size: 18px;
-  cursor: pointer;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-
-.btn-link:hover {
-  background-color:#7e5876;
-}
+  #name {
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    color: #fdf9f1;
+    margin: 20px 0;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
 </style>

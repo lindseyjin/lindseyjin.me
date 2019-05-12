@@ -30,22 +30,30 @@ export default {
 };
 </script>
 <style scoped>
-.website-section {
-  padding: 15px 5% 50px;
-  text-align: center;
-  /* margin: auto; */
-}
-.contact {
-  width: 40%;
-  margin: 20px auto;
-  background: #dfdad8;
-  padding: 20px 40px;
-}
-.contact-label {
-  padding-bottom: 10px;
-}
-.contact-item {
-  font-size: 16px;
-  margin: 10px 0;
-}
+  @media (min-width: 600px) {
+    .contact {
+      width: 40%;
+    }
+  }
+  @media (max-width: 600px) {
+    .contact {
+      width: 70%;
+    }
+  }
+  .website-section {
+    padding: 15px 5% 50px;
+    text-align: center;
+  }
+  .contact {
+    margin: 20px auto;
+    background: #dfdad8;
+    padding: 20px 40px;
+  }
+  .contact-label {
+    padding-bottom: 10px;
+  }
+  .contact-item {
+    font-size: 16px;
+    margin: 10px 0;
+  }
 </style>

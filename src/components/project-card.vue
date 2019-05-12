@@ -6,7 +6,11 @@
       <h4>{{subtitle}}</h4>
       <p> {{desc}} </p>
       <p> <i> Tools: {{tools}} </i> </p>
-      <p><a :href="link" target="_blank">Github</a></p>
+      <p>
+        <a :href="github" target="_blank">Github</a>
+        &nbsp;&nbsp;&nbsp; 
+        <a v-if="devpost" :href="devpost" target="_blank">Devpost</a>
+      </p>
     </div>
   </div>
 </template>
@@ -14,7 +18,7 @@
 <script>
   export default {
     name: 'ProjectCard',
-    props: ['url', 'name', 'subtitle', 'desc', 'tools', 'link'],
+    props: ['url', 'name', 'subtitle', 'desc', 'tools', 'link','devpost'],
     data () {
       return {}
     }
@@ -22,13 +26,12 @@
 </script>
 
 <style scoped>
-  @media (max-width: 900px) { 
+  @media (max-width: 600px) {
     .card {
-      /* margin: 0 10%; */
-      }
-   }
-
-  @media (min-width: 900px) {
+      width: 100%;
+    }
+  }
+  @media (min-width: 600px) {
     .card {
       width: 30%;
       margin: 1.5%;
@@ -67,5 +70,4 @@
     color: #7e5876;
     margin-top: 10px;
   }
-
 </style>

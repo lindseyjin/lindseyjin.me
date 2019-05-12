@@ -11,7 +11,8 @@
           subtitle="Winner at Hack the North 2018"
           desc="Fitbit app that tracks a user's workout progress! Data is displayed on a companion web app that shows real time biometrics."
           tools="Fitbit SDK, Vue.js"
-          link="https://github.com/lindseyjin/lift"
+          github="https://github.com/lindseyjin/lift"
+          devpost="https://devpost.com/software/lift-ilm43c"
           />
           <ProjectCard
           url="../../static/img/screenshot.png"
