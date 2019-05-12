@@ -2,8 +2,11 @@
   <div class="col card">
     <img class="card-img" :src="url" alt="lift" />
     <div class="card-body">
-      <h3><b> {{name}} </b></h3>
+      <span class="heading">{{name}}</span>
+      <h4>{{subtitle}}</h4>
       <p> {{desc}} </p>
+      <p> <i> Tools: {{tools}} </i> </p>
+      <p><a :href="link" target="_blank">Github</a></p>
     </div>
   </div>
 </template>
@@ -11,7 +14,7 @@
 <script>
   export default {
     name: 'ProjectCard',
-    props: ['url', 'name', 'desc'],
+    props: ['url', 'name', 'subtitle', 'desc', 'tools', 'link'],
     data () {
       return {}
     }
@@ -31,6 +34,9 @@
       margin: 1.5%;
     }
   }
+  h4 {
+    margin-top: 0 /* for subtitle */
+  }
   .col {
     float: left;
     margin-bottom: 20px;
@@ -41,17 +47,25 @@
     border-radius: 15px;
     background: #fff;
     position: relative;
+    overflow: hidden;
   }
   .card-img {
-    height: 20%;
-    border-radius: 15px 15px 0 0;
     width: 100%;
+    border-radius: 15px 15px 0 0;
   }
   .card-body {
-    height: 200px;
+    /* height: 240px; */
     padding: 2px 20px;
   }
   .card-img:hover {
     opacity: 0.5;
   }
+  .heading {
+    font-size: 22px;
+    font-weight: 700;  
+    font-family: 'Open Sans';
+    color: #7e5876;
+    margin-top: 10px;
+  }
+
 </style>

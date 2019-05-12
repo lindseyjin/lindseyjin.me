@@ -29,7 +29,7 @@
           </button>
         </a>
         <a
-          href="./../../static/docs/resume.pdf"
+          href="./../../static/docs/Resume.pdf"
           target="_blank"
         >
           <button class="btn-link">
@@ -106,7 +106,6 @@ export default {
 }
 
 .btn-link:hover {
-  background-color:rgb(134, 105, 140)
-;
+  background-color:#7e5876;
 }
 </style>

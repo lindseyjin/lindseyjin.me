@@ -31,9 +31,8 @@ export default {
 </script>
 <style scoped>
 .website-section {
-  padding: 0 5%;
+  padding: 15px 5% 50px;
   text-align: center;
-  padding-bottom: 20px;
   /* margin: auto; */
 }
 .contact {

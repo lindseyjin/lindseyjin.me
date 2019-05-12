@@ -1,17 +1,28 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Raleway', sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Krub', sans-serif;
+  color: #9b9b9b;
 }
 h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 3.5em;
+  color: #686868;
 }
 html, body {
   font-family: 'Open Sans', sans-serif;
-  /* background-color: #fdf9f1; */
+  background-color: #fdf9f1;
   height: 100vh;
   margin: 0;
 }
-
+a {
+  text-decoration: none;
+  color: rgb(130, 31, 134);
+}
+a:link {
+  color: #864cf1; /* unvisited link */
+}
+a:hover{
+  text-decoration: underline;
+}
 /* // add app-container? */
 
 /* creds to the following to https://stackoverflow.com/a/36159798 */
