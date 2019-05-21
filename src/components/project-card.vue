@@ -41,12 +41,12 @@
 </script>
 
 <style scoped>
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .card {
       width: 100%;
     }
   }
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     .card {
       width: 30%;
       margin: 1.5%;

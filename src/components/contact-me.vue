@@ -30,12 +30,12 @@ export default {
 };
 </script>
 <style scoped>
-  @media (min-width: 600px) {
+  @media (min-width: 800px) {
     .contact {
       width: 40%;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .contact {
       width: 70%;
     }
