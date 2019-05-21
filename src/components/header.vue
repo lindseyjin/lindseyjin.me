@@ -46,6 +46,9 @@ export default {
     #name {
       font-size: 9vw;
     }
+    .content-wraper {
+      margin: 0 15%;
+    }
   }
   @media (min-width: 600px) and (max-width: 1000px) {
     #name {
@@ -59,7 +62,6 @@ export default {
     .content-wrapper {
       background: rgba(255,255,255, 0.3);
       position: relative;
-      margin: 0 15%;
       text-align: center;
       padding: 40px 0;
       top: 50%;
