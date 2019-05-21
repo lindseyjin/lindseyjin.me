@@ -46,8 +46,9 @@ export default {
     #name {
       font-size: 9vw;
     }
-    .content-wraper {
+    .content-wrapper {
       margin: 0 15%;
+      border-radius: 15px;
     }
   }
   @media (min-width: 600px) and (max-width: 1000px) {

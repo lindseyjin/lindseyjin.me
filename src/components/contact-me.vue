@@ -45,9 +45,10 @@ export default {
     text-align: center;
   }
   .contact {
-    margin: 20px auto;
     background: #dfdad8;
+    border-radius: 15px;
     padding: 20px 40px;
+    margin: 20px auto;
   }
   .contact-label {
     padding-bottom: 10px;

@@ -56,7 +56,7 @@ export default {
     .speech-bubble {
       position: relative;
       background: #c0bbbf;
-      border-radius: 0.4em;
+      border-radius: 15px;
       width: 500px;
       padding: 30px;
       margin-top: 20px;
