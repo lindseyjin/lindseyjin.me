@@ -12,28 +12,19 @@
         ></vue-typer>
       </div>
       <div>
-        <a
-          href="https://github.com/lindseyjin"
-          target="_blank"
-        >
-          <button class="btn-link">
-            <span>Github <i class="fab fa-github"></i></span>
+        <a href="https://github.com/lindseyjin" target="_blank">
+          <button title="Github" class="btn-link">
+            <span> <i class="fab fa-github"></i></span>
           </button>
         </a>
-        <a
-          href="https://linkedin.com/in/lindsey-jin/"
-          target="_blank"
-        >
-          <button class="btn-link">
-            <span>LinkedIn <i class="fab fa-linkedin"></i></span>
+        <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">
+          <button title="LinkedIn" class="btn-link">
+            <span> <i class="fab fa-linkedin"></i></span>
           </button>
         </a>
-        <a
-          href="./../../static/docs/Resume.pdf"
-          target="_blank"
-        >
-          <button class="btn-link">
-            <span>Resume <i class="fas fa-file"></i></span>
+        <a href="./../../static/docs/Resume.pdf" target="_blank">
+          <button title="Resume" class="btn-link">
+            <span> <i class="fas fa-file"></i></span>
           </button>
         </a>
       </div>
@@ -56,7 +47,7 @@ export default {
       height: 100vh;
     }
     #name {
-      font-size: 120px;
+      font-size: 10vw;
     }
     .content-wrapper {
       position: relative;
@@ -71,20 +62,12 @@ export default {
     #intro {
       position: relative;
       font-family: "Source Code Pro", monospace;
-      font-size: 18px;
+      font-size: 20px;
       word-wrap:break-word;
-      margin: 30px 0 40px;
+      margin: 2% 0 2%;
     }
     .btn-link {
-      border: 2px solid #fbf4e4;
-      border-radius: 25px;
-      color: #fdf9f1;
       background-color: rgba(134,105,140,0.3);
-      padding: 10px 15px;
-      margin: 15px;
-      font-size: 18px;
-      cursor: pointer;
-      text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     }
     .btn-link:hover {
       background-color:#7e5876;
@@ -93,7 +76,7 @@ export default {
   }
   @media (max-width: 600px) {
     #name {
-      font-size: 80px;
+      font-size: 23vw;
     }
     .content-wrapper {
       text-align: center;
@@ -103,14 +86,7 @@ export default {
       visibility: hidden;
     }
     .btn-link {
-      border: 2px solid #fbf4e4;
-      border-radius: 25px;
-      color: #fdf9f1;
       background-color: rgb(134,105,140);
-      padding: 10px 15px;
-      margin: 15px;
-      font-size: 20px;
-      width: 50%;
     }
   }
 
@@ -128,5 +104,18 @@ export default {
     color: #fdf9f1;
     margin: 20px 0;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
+
+  .btn-link {
+    border: 2px solid #fbf4e4;
+    border-radius: 50%;
+    color: #fdf9f1;
+    padding: 10px 15px;
+    margin: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    width: 72px;
+    height: 72px;
   }
 </style>

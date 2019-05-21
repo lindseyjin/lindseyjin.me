@@ -11,10 +11,10 @@
       <div class="speech-bubble">
         <p>
           Hi, I'm Lindsey!
-          I'm a second year Software Engineering student at the University of Waterloo. Currently in search of internships for Fall 2019. 
+          I'm a second year Software Engineering student at the University of Waterloo. I'm currently in search of internships for Fall 2019. 
         </p>
         <p>
-          I love learning new things and experimenting with different tools and frameworks, through personal projects and <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
+          I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
           Outside of programming, my interests include 
           <a href="https://goodreads.com/user/show/14001282-lindsey" target="_blank">books</a>, board games, coffee, and birds!
         </p>
@@ -38,10 +38,10 @@ export default {
   @media (min-width: 600px) {
     .website-section {
       text-align: center;
-      padding: 15px 5% 120px;
+      padding: 15px 5% 150px;
     }
     .content {
-      margin-top: 40px;
+      margin: 40px 0;
       display: flex;
       justify-content: center; 
       align-items: center;
@@ -49,13 +49,13 @@ export default {
     }
     img {
       width: 300px;
-      border: 6px solid #C6B6C3;
+      border: 6px solid #ae98aa;
       border-radius: 50%;
       margin-right: 100px;
     }
     .speech-bubble {
       position: relative;
-      background: #C6B6C3;
+      background: #c0bbbf;
       border-radius: 0.4em;
       width: 500px;
       padding: 30px;
@@ -70,7 +70,7 @@ export default {
       width: 0;
       height: 0;
       border: 34px solid transparent;
-      border-right-color: #C6B6C3;
+      border-right-color: #c0bbbf;
       border-left: 0;
       border-bottom: 0;
       margin-top: -17px;
@@ -85,7 +85,7 @@ export default {
     }
     img {
       width: 80%;
-      border: 6px solid #C6B6C3;
+      border: 6px solid #ae98aa;
       border-radius: 50%;
       text-align: center;
     }

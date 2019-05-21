@@ -1,15 +1,19 @@
 <template>
   <div class="col card">
-    <img class="card-img" :src="url" alt="lift" />
+    <div class="card-img-container">
+      <img v-if="this.projectData.images[0]" class="card-img" :src="this.projectData.images[0]" :alt="projectData.name" />
+      <img v-if="this.projectData.images[1]" class="card-img show-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
+    </div> 
+    <img v-if="!this.projectData.images[0]" class="card-img" :src="defaultImg" alt="image not found" />
     <div class="card-body">
-      <span class="heading">{{name}}</span>
-      <h4>{{subtitle}}</h4>
-      <p> {{desc}} </p>
-      <p> <i> Tools: {{tools}} </i> </p>
-      <p>
-        <a :href="github" target="_blank">Github</a>
+      <span class="heading">{{projectData.name}}</span>
+      <h4>{{projectData.subheading}}</h4>
+      <p> {{projectData.desc}} </p>
+      <p> <i> Tools: {{projectData.tools}} </i> </p>
+      <p class="links" v-if="projectData.links">
+        <a :v-if="projectData.links.github" :href="projectData.links.github" target="_blank">Github</a>
         &nbsp;&nbsp;&nbsp; 
-        <a v-if="devpost" :href="devpost" target="_blank">Devpost</a>
+        <a v-if="projectData.links.devpost" :href="projectData.links.devpost" target="_blank">Devpost</a>
       </p>
     </div>
   </div>
@@ -18,10 +22,21 @@
 <script>
   export default {
     name: 'ProjectCard',
-    props: ['url', 'name', 'subtitle', 'desc', 'tools', 'link','devpost'],
+    props: ['projectData'],
     data () {
-      return {}
+      return {
+        // imgCounter: 0,
+        // currentImg: this.projectData.images[0],
+        defaultImg: '../../static/img/default-image.jpg'
+      }
     }
+    // methods: {
+    //   changeImage () {
+    //     this.imgCounter++;
+    //     if (this.imgCounter == this.projectData.images.length) this.imgCounter = 0;
+    //     this.currentImg = this.projectData.images[this.imgCounter];
+    //   }
+    // }
   }
 </script>
 
@@ -41,7 +56,6 @@
     margin-top: 0 /* for subtitle */
   }
   .col {
-    float: left;
     margin-bottom: 20px;
   }
   .card {
@@ -55,13 +69,27 @@
   .card-img {
     width: 100%;
     border-radius: 15px 15px 0 0;
+    border-bottom: 2px transparent;
   }
+  .show-on-hover {
+    position: absolute;
+    top: 0;
+    display: auto;
+  }
+  .card-img-container:hover .show-on-hover{
+    -webkit-animation: fadein 0.2s linear 1 normal forwards;
+    }
+
+    @-webkit-keyframes fadein{
+    from{
+      opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+    }
   .card-body {
-    /* height: 240px; */
-    padding: 2px 20px;
-  }
-  .card-img:hover {
-    opacity: 0.5;
+    padding: 5px 20px 40px;
   }
   .heading {
     font-size: 22px;
@@ -69,5 +97,25 @@
     font-family: 'Open Sans';
     color: #7e5876;
     margin-top: 10px;
+  }
+  .img-options {
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active {
+    background-color: #707070;
+  }
+  .links {
+    position: absolute;
+    bottom: 0;
   }
 </style>

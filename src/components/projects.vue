@@ -6,66 +6,42 @@
     <div class="projects">
         <div class="row">
           <ProjectCard
-          url="../../static/img/lift.png"
-          name="Lift"
-          subtitle="Winner at Hack the North 2018"
-          desc="Fitbit app that tracks a user's workout progress! Data is displayed on a companion web app that shows real time biometrics."
-          tools="Fitbit SDK, Vue.js"
-          github="https://github.com/lindseyjin/lift"
-          devpost="https://devpost.com/software/lift-ilm43c"
+            :project-data="lift"
           />
           <ProjectCard
-          url="../../static/img/screenshot.png"
-          name="Passport-Plus"
-          desc="Website that displays information about exchange schools, with data scraped from Waterloo Passport."
-          tools="Vue.js, Flask, BeautifulSoup."
+            :project-data="passportPlus"
           />
           <ProjectCard
-          url="../../static/img/default-image.jpg"
-          subtitle="Best Use of ConsenSys API at Hack the Valley 2"
-          name="Bash the Ballot"
-          desc="Elections web app that verifies unique voter identity using smart contracts."
-          tools="React, uPort"
+            :project-data="bashTheBallot"
           />
         </div>
-        <div class="row">
+        <div class='row'>
           <ProjectCard
-          url="../../static/img/default-image.jpg"
-          subtitle="Equithon 2018"
-          name="TutorConnect"
-          desc="Arduino"
-          tools="Arduino, uPort"
+            :project-data="tutorConnect"
           />
           <ProjectCard
-          url="../../static/img/default-image.jpg"
-          subtitle="UoftHacks 2019"
-          name="deScribe"
-          desc="deScribe"
-          tools="React, uPort"
+            :project-data="deScribe"
           />
-          <ProjectCard
-          url="../../static/img/default-image.jpg"
-          subtitle="SE 101 Project"
-          name="FruityFun"
-          desc="Arduino"
-          tools="Arduino, uPort"
-          />
+          <!-- <ProjectCard
+            :project-data="fruityFun"
+          /> -->
         </div>
-        <div class="row">
+        <!-- <div class='row'>
           <ProjectCard
-          url="../../static/img/default-image.jpg"
-          name="My Github Favs"
-          desc="Arduino"
-          tools="Arduino, uPort"
+          url='../../static/img/default-image.jpg'
+          name='My Github Favs'
+          desc='Arduino'
+          tools='Arduino, uPort'
           />
           <ProjectCard
-          url="../../static/img/default-image.jpg"
-          name="Conway's Game of Life Simulator"
-          desc="Arduino"
-          tools="Arduino, uPort"
-          />
+          url='../../static/img/default-image.jpg'
+          name='Conway's Game of Life Simulator'
+          desc='Arduino'
+          tools='Arduino, uPort'
+          /> 
+          watfridge ????
+          -->
         </div>
-        <!-- fruityFun, add deScribe, bash the ballot, my github favs, tutorconect, online conway simulator? what else? -->
     </div>
   </div> 
 </template>
@@ -77,19 +53,112 @@
     name: 'Projects',
     components: {ProjectCard},
     data () {
-      return {}
+      return {
+        'lift': {
+          'images': [
+            '../../static/img/lift2.jpg',
+            '../../static/img/lift1.png'
+          ],
+          'name':'Lift',
+          'subheading':'Winner at Hack the North 2018',
+          'desc': 'Fitbit app that tracks a users workout progress! Data is displayed on a companion web app that shows real time biometrics.',
+          'tools': 'Fitbit SDK, Vue.js',
+          'links': {
+            'github':'https://github.com/lindseyjin/lift',
+            'devpost':'https://devpost.com/software/lift-ilm43c'
+          }
+        },
+        'passportPlus': {
+          'images': [
+            '../../static/img/screenshot.png'
+            ],
+          'name': 'Passport-Plus',
+          'desc': 'Website that displays information about exchange schools in a search-able and filter-able table, \
+          with data scraped from Waterloo Passport',
+          'tools': 'Flask, BeautifulSoup, Vue.js, Bootstrap',
+          'links': {
+            'github': 'https://github.com/lindseyjin/passport-plus'
+          }
+        }, 
+        'bashTheBallot': {
+          'images': [
+            '../../static/img/bashtheballot2.PNG',
+            '../../static/img/bashtheballot13.PNG'
+          ],
+          'name': 'Bash the Ballot',
+          'subheading': 'Best Use of ConsenSys API at Hack the Valley 2',
+          'desc':'Elections web app that verifies unique voter identity by using uPort, which implements smart contracts.',
+          'tools':'React, uPort',
+          'links': {
+            'github': 'https://github.com/lindseyjin/Bash_The_Ballot'
+          }
+        },
+        'tutorConnect': {
+          'images': [
+            '../../static/img/tutorconnect2.jpg',
+            '../../static/img/tutorconnect1.jpg',
+          ],
+          'name': 'TutorConnect',
+          'subheading': 'Equithon 2018',
+          'desc':'Web app to connect struggling students to potential tutors nearby! Made for the Access to Education category in Equithon 2018.',
+          'tools':'Flask, Bootstrap',
+          'links': {
+            'github': 'https://github.com/lindseyjin/TutorConnect',
+            'devpost': 'https://devpost.com/software/tutor-connect'
+          }
+        },
+        'fruityFun': {
+          'images': [
+            '../../static/img/fruityfun.jpg',
+          ],
+          'name': 'FruityFun',
+          'subheading': 'SE101 Project',
+          'desc':'A healthier alternative to Candy Crush, reimagined for Arduino! Written with C. Made for use with a TFT LCD Touch Screen Shield and Arduino Uno R3.',
+          'tools':'C, Arduino UNO',
+          'links': {
+            'github': 'https://github.com/lindseyjin/fruity-fun'
+          }
+        },
+        'deScribe': {
+          'images': [
+            '../../static/img/describe2.png',
+            '../../static/img/describe1.jpg'
+          ],
+          'name': 'deScribe',
+          'subheading': 'UoftHacks 2019',
+          'desc':'',
+          'tools':'React, ',
+          'links': {
+            'github': 'https://github.com/beini19/SmartJournalAssistant',
+            'devpost': 'https://devpost.com/software/describe-lbpsfm'
+          }
+        }
+      }
     }
   }
 </script>
 
 <style scoped>
+  @media (max-width: 600px) {
+    .row {
+      flex-direction: column;
+    }
+  }
   .website-section {
-    padding: 15px 5% 120px;
-    background-color: #d9bebf;
+    padding: 15px 5% 140px;
+    background-color: #ae98aa;
     overflow: auto;
   } 
   .row {
+    display: flex;
     width: 100%;
-    float: right;
+  }
+  h1 {
+    color: white;
+  }
+  .hr-sect::before,
+  .hr-sect::after {
+    background: rgba(255, 255, 255, 0.35); /* white heading */
+    height: 2px;
   }
 </style>
