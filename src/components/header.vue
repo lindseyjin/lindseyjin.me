@@ -42,16 +42,24 @@ export default {
 </script>
 
 <style scoped>
+  @media (min-width: 1000px) {
+    #name {
+      font-size: 9vw;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1000px) {
+    #name {
+      font-size: 15vw;
+    }
+  }
   @media (min-width: 600px) {
     .app-container {
-      height: 100vh;
-    }
-    #name {
-      font-size: 10vw;
+      height: 105vh;
     }
     .content-wrapper {
+      background: rgba(255,255,255, 0.3);
       position: relative;
-      margin: auto;
+      margin: 0 15%;
       text-align: center;
       padding: 40px 0;
       top: 50%;
@@ -62,7 +70,7 @@ export default {
     #intro {
       position: relative;
       font-family: "Source Code Pro", monospace;
-      font-size: 20px;
+      font-size: 18px;
       word-wrap:break-word;
       margin: 2% 0 2%;
     }
@@ -111,7 +119,7 @@ export default {
     border-radius: 50%;
     color: #fdf9f1;
     padding: 10px 15px;
-    margin: 20px;
+    margin: 10px 20px;
     font-size: 40px;
     cursor: pointer;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);

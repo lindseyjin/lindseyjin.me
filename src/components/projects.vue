@@ -22,9 +22,9 @@
           <ProjectCard
             :project-data="deScribe"
           />
-          <!-- <ProjectCard
+          <ProjectCard
             :project-data="fruityFun"
-          /> -->
+          />
         </div>
         <!-- <div class='row'>
           <ProjectCard
@@ -70,11 +70,12 @@
         },
         'passportPlus': {
           'images': [
-            '../../static/img/screenshot.png'
+            '../../static/img/passportplus2.png',
+            '../../static/img/passportplus1.png'
             ],
           'name': 'Passport-Plus',
-          'desc': 'Website that displays information about exchange schools in a search-able and filter-able table, \
-          with data scraped from Waterloo Passport',
+          'desc': 'Website that displays information about exchange schools in a table with search and filter options, \
+          using data scraped from Waterloo Passport (the official university exchange website).',
           'tools': 'Flask, BeautifulSoup, Vue.js, Bootstrap',
           'links': {
             'github': 'https://github.com/lindseyjin/passport-plus'
@@ -83,11 +84,11 @@
         'bashTheBallot': {
           'images': [
             '../../static/img/bashtheballot2.PNG',
-            '../../static/img/bashtheballot13.PNG'
+            '../../static/img/bashtheballot.PNG'
           ],
           'name': 'Bash the Ballot',
           'subheading': 'Best Use of ConsenSys API at Hack the Valley 2',
-          'desc':'Elections web app that verifies unique voter identity by using uPort, which implements smart contracts.',
+          'desc':'Elections web app that verifies unique voter identity by using uPort, which implements smart contracts on the blockchain.',
           'tools':'React, uPort',
           'links': {
             'github': 'https://github.com/lindseyjin/Bash_The_Ballot'
@@ -95,12 +96,12 @@
         },
         'tutorConnect': {
           'images': [
-            '../../static/img/tutorconnect2.jpg',
             '../../static/img/tutorconnect1.jpg',
+            '../../static/img/tutorconnect2.jpg',
           ],
           'name': 'TutorConnect',
           'subheading': 'Equithon 2018',
-          'desc':'Web app to connect struggling students to potential tutors nearby! Made for the Access to Education category in Equithon 2018.',
+          'desc':'Web app to connect struggling students to potential tutors nearby. Made for the Access to Education category in Equithon 2018.',
           'tools':'Flask, Bootstrap',
           'links': {
             'github': 'https://github.com/lindseyjin/TutorConnect',
@@ -109,11 +110,12 @@
         },
         'fruityFun': {
           'images': [
-            '../../static/img/fruityfun.jpg',
+            '../../static/img/fruityfun.gif',
+            // '../../static/img/fruityfun1.PNG',
           ],
           'name': 'FruityFun',
           'subheading': 'SE101 Project',
-          'desc':'A healthier alternative to Candy Crush, reimagined for Arduino! Written with C. Made for use with a TFT LCD Touch Screen Shield and Arduino Uno R3.',
+          'desc':'A healthier alternative to Candy Crush, reimagined for Arduino! Made for use with a TFT LCD Touch Screen Shield and Arduino Uno R3.',
           'tools':'C, Arduino UNO',
           'links': {
             'github': 'https://github.com/lindseyjin/fruity-fun'
@@ -126,8 +128,8 @@
           ],
           'name': 'deScribe',
           'subheading': 'UoftHacks 2019',
-          'desc':'',
-          'tools':'React, ',
+          'desc':'Say hello to Kiwi, your personal Google Assistant chat bot! Kiwi asks you questions about your day, and runs sentiment analysis on your responses to track mental health over time.',
+          'tools':'React, Node.js, Firebase',
           'links': {
             'github': 'https://github.com/beini19/SmartJournalAssistant',
             'devpost': 'https://devpost.com/software/describe-lbpsfm'

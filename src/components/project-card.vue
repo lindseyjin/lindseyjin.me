@@ -9,8 +9,8 @@
       <span class="heading">{{projectData.name}}</span>
       <h4>{{projectData.subheading}}</h4>
       <p> {{projectData.desc}} </p>
-      <p> <i> Tools: {{projectData.tools}} </i> </p>
-      <p class="links" v-if="projectData.links">
+      <p class="tools"> <i> Tools: {{projectData.tools}} </i> </p>
+      <p class="footer">
         <a :v-if="projectData.links.github" :href="projectData.links.github" target="_blank">Github</a>
         &nbsp;&nbsp;&nbsp; 
         <a v-if="projectData.links.devpost" :href="projectData.links.devpost" target="_blank">Devpost</a>
@@ -77,17 +77,9 @@
     display: auto;
   }
   .card-img-container:hover .show-on-hover{
-    -webkit-animation: fadein 0.2s linear 1 normal forwards;
-    }
-
-    @-webkit-keyframes fadein{
-    from{
-      opacity: 1;
-    }
-    to{
-        opacity: 0;
-    }
-    }
+    opacity: 0;
+    transition: opacity .5s ease-out;
+  }
   .card-body {
     padding: 5px 20px 40px;
   }
@@ -114,7 +106,7 @@
   .active {
     background-color: #707070;
   }
-  .links {
+  .footer {
     position: absolute;
     bottom: 0;
   }
