@@ -44,11 +44,11 @@ export default {
 <style scoped>
   @media (min-width: 1000px) {
     #name {
-      font-size: 9vw;
+      font-size: 120px;
     }
     .content-wrapper {
-      margin: 0 15%;
-      border-radius: 15px;
+      width: 900px;
+      margin: auto;
     }
   }
   @media (min-width: 600px) and (max-width: 1000px) {
@@ -111,7 +111,7 @@ export default {
   #name {
     position: relative;
     font-family: 'Open Sans';
-    font-weight: 600;
+    font-weight: 800;
     color: #fdf9f1;
     margin: 20px 0;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);

@@ -51,7 +51,7 @@ export default {
       width: 300px;
       border: 6px solid #ae98aa;
       border-radius: 50%;
-      margin-right: 100px;
+      margin-right: 10%;
     }
     .speech-bubble {
       position: relative;
@@ -88,10 +88,11 @@ export default {
       border: 6px solid #ae98aa;
       border-radius: 50%;
       text-align: center;
+      margin-bottom: 20px;
     }
     .speech-bubble {
       position: relative;
-      background: #C6B6C3;
+      background: #c0bbbf;
       border-radius: 0.6em;
       width: 90%;
       padding: 3% 5%;
@@ -105,7 +106,7 @@ export default {
       width: 0;
       height: 0;
       border: 20px solid transparent;
-      border-bottom-color: #C6B6C3;
+      border-bottom-color: #c0bbbf;
       border-top: 0;
       border-left: 0;
       margin-left: -10px;

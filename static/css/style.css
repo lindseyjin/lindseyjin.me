@@ -19,6 +19,7 @@ a {
 }
 a:link {
   color: #9260ee; /* unvisited link */
+  /* color: rgb(130, 31, 134); */
 }
 a:hover{
   text-decoration: underline;
