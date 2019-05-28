@@ -9,7 +9,7 @@ h1 {
 }
 html, body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fdf9f1;
+  /* background-color: #fdf9f1; */
   height: 100vh;
   margin: 0;
 }
