@@ -11,7 +11,7 @@
       <div class="speech-bubble">
         <p>
           Hi, I'm Lindsey!
-          I'm a second year Software Engineering student at the University of Waterloo. I'm currently in search of internships for Fall 2019. 
+          I'm a 3A Software Engineering student at the University of Waterloo. I'm currently in search of internships for Summer 2020. 
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
