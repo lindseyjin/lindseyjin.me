@@ -4,9 +4,6 @@
       <h1>CONTACT ME</h1>
     </div>
     <div class="contact">
-        <div class="heading">
-          Let's get in touch!
-        </div>
       <div class="contact-item">
         <i class="fas fa-envelope"></i> 
         <a href="mailto:lindseyjinlj@gmail.com">lindseyjinlj@gmail.com</a>
@@ -43,7 +40,7 @@ export default {
     }
   }
   .website-section {
-    padding: 15px 5% 50px;
+    padding: 5% 5% 10%;
     text-align: center;
   }
   .contact {
@@ -58,10 +55,5 @@ export default {
   .contact-item {
     font-size: 16px;
     margin: 10px 0;
-  }
-  .heading {
-    font-family: "Source Code Pro", monospace;
-    font-size: 18px;
-    margin: 10px 0 20px;
   }
 </style>

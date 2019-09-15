@@ -146,7 +146,7 @@
     }
   }
   .website-section {
-    padding: 15px 5% 140px;
+    padding: 5% 5% 15%;
     background-color: #ae98aa;
     overflow: auto;
   } 

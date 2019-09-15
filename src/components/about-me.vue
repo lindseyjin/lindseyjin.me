@@ -5,7 +5,7 @@
     </div>
     <div class="content">
       <img
-        src="/../../static/img/me.jpg"
+        src="../../static/img/me2.jpg"
         alt="Avatar"
       >
       <div class="speech-bubble">
@@ -38,29 +38,30 @@ export default {
   @media (min-width: 600px) {
     .website-section {
       text-align: center;
-      padding: 15px 5% 150px;
+      padding: 5% 5% 15%;
     }
     .content {
       margin: 40px 0;
       display: flex;
       justify-content: center; 
       align-items: center;
-      color: #553e58;  /* text color */
+      color: #444344;  /* text color */
     }
     img {
       width: 300px;
-      border: 6px solid #ae98aa;
+      /* border: 6px solid #ae98aa; */
       border-radius: 50%;
       margin-right: 10%;
     }
     .speech-bubble {
       position: relative;
-      background: #c0bbbf;
+      background: #e2dee1;
       border-radius: 15px;
       width: 500px;
       padding: 30px;
       margin-top: 20px;
       text-align: left;
+      line-height: 1.7rem;
     }
     .speech-bubble:after {
       content: "";
@@ -70,7 +71,7 @@ export default {
       width: 0;
       height: 0;
       border: 34px solid transparent;
-      border-right-color: #c0bbbf;
+      border-right-color: #e2dee1;
       border-left: 0;
       border-bottom: 0;
       margin-top: -17px;
@@ -80,12 +81,12 @@ export default {
   @media (max-width: 600px) {
     .content {
       text-align: center;
-      color: #553e58;  /* text color */
+      color: #444344;  /* text color */
       padding: 0 30px 50px;
     }
     img {
       width: 80%;
-      border: 6px solid #ae98aa;
+      /* border: 6px solid #ae98aa; */
       border-radius: 50%;
       text-align: center;
       margin-bottom: 20px;
