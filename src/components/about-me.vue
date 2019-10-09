@@ -1,28 +1,46 @@
 <template>
   <div class="website-section">
-    <div class="hr-sect">
-      <h1>ABOUT ME</h1>
-    </div>
-    <div class="content">
+    <div class="wrapper">
+      <div class="heading"> 
+        <h1> Hello there! </h1>
+      </div>
+    <div class="about">
       <img
-        src="../../static/img/me2.jpg"
+        src="../../static/img/pic_me.jpg"
         alt="Avatar"
       >
-      <div class="speech-bubble">
+      <div class="about-text">
         <p>
-          Hi, I'm Lindsey!
-          I'm a 3A Software Engineering student at the University of Waterloo. I'm currently in search of internships for Summer 2020. 
+          Hi, I'm Lindsey and I'll soon be heading into my third year of Software Engineering student at the University of Waterloo. 
+          I'm currently in search of internships for Summer 2020. 
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
           Outside of programming, my interests include 
-          <a href="https://goodreads.com/user/show/14001282-lindsey" target="_blank">books</a>, board games, coffee, and birds!
+          <a href="https://www.goodreads.com/troubledpears" target="_blank">books</a>, board games, coffee, and birds!
         </p>
         <p>
           Feel free to reach out to me if you'd like to chat. Thanks for dropping by!
         </p>
+        <div class="line"/>
+                <a href="https://github.com/lindseyjin" target="_blank">
+          <div class="btn-icon">
+            <span> <i class="fab fa-github"></i></span>
+          </div>
+        </a>
+        <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">
+          <div class="btn-icon">
+            <span> <i class="fab fa-linkedin"></i></span>
+          </div>
+        </a>
+        <a href="./../../static/docs/Resume.pdf" target="_blank">
+          <div class="btn-icon">
+            <span> <i class="fas fa-file"></i></span>
+          </div>
+        </a>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -35,6 +53,56 @@ export default {
 };
 </script>
 <style scoped>
+  .wrapper {
+    width: 850px;
+    margin: auto;
+  }
+  .about {
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .heading {
+    text-align: left;
+    margin: 80px 10px;
+  }
+  img {
+    animation: opacity-decrease 0.4s;
+    opacity: 0.9;
+    width: 200px;
+    border-radius: 50%;
+  }
+  img:hover {
+    animation: opacity-increase 0.2s;
+    opacity: 1;
+  }
+  @keyframes opacity-increase {
+    from { opacity: 0.9; }
+    to   { opacity: 1; }
+  }
+  @keyframes opacity-decrease {
+    from { opacity: 1; }
+    to   { opacity: 0.9; }
+  }
+  .about-text {
+    text-align: left;
+  }
+  .line {
+    border: 1px solid #C4C4C4;
+    width: 300px;
+    margin: 30px 0 15px;
+  }
+  .btn-icon {
+    display: inline-block;
+    color: #949494;
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 25px;
+  }
+  .btn-icon:hover {
+    color: #727272;
+  }
+
   @media (min-width: 600px) {
     .website-section {
       text-align: center;
@@ -49,33 +117,7 @@ export default {
     }
     img {
       width: 300px;
-      /* border: 6px solid #ae98aa; */
-      border-radius: 50%;
-      margin-right: 10%;
-    }
-    .speech-bubble {
-      position: relative;
-      background: #e2dee1;
-      border-radius: 15px;
-      width: 500px;
-      padding: 30px;
-      margin-top: 20px;
-      text-align: left;
-      line-height: 1.7rem;
-    }
-    .speech-bubble:after {
-      content: "";
-      position: absolute;
-      left: -30px;
-      top: 50%;
-      width: 0;
-      height: 0;
-      border: 34px solid transparent;
-      border-right-color: #e2dee1;
-      border-left: 0;
-      border-bottom: 0;
-      margin-top: -17px;
-      margin-left: -34;
+      margin-right: 80px;
     }
   }
   @media (max-width: 600px) {
@@ -87,31 +129,8 @@ export default {
     img {
       width: 80%;
       /* border: 6px solid #ae98aa; */
-      border-radius: 50%;
       text-align: center;
       margin-bottom: 20px;
-    }
-    .speech-bubble {
-      position: relative;
-      background: #c0bbbf;
-      border-radius: 0.6em;
-      width: 90%;
-      padding: 3% 5%;
-      margin-top: 20px;
-    }
-    .speech-bubble:after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 0;
-      height: 0;
-      border: 20px solid transparent;
-      border-bottom-color: #c0bbbf;
-      border-top: 0;
-      border-left: 0;
-      margin-left: -10px;
-      margin-top: -20px;
     }
   }
 </style>

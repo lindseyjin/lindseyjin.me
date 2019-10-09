@@ -4,13 +4,6 @@
       <div id="name">
         LINDSEY JIN
       </div>
-      <div id="intro">
-        <vue-typer
-          text='Hello World! Welcome to my website.'
-          erase-style='clear'
-          pre-erase-delay='4000'
-        ></vue-typer>
-      </div>
       <div>
         <a href="https://github.com/lindseyjin" target="_blank">
           <button title="Github" class="btn-link">
