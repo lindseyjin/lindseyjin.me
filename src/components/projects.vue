@@ -1,7 +1,9 @@
 <template>
   <div class="website-section">
-    <div class="hr-sect">
-      <h1>PROJECTS</h1>
+    <div class="hr-wrapper">
+      <h1>Projects</h1>
+      <div class="line"/>
+      <p>Here are some of my projects that I've worked on in the past. </p>
     </div>
     <div class="projects">
         <div class="row">
@@ -147,19 +149,22 @@
   }
   .website-section {
     padding: 5% 5% 15%;
-    background-color: #ae98aa;
     overflow: auto;
+    background: #EDEDED;
   } 
   .row {
     display: flex;
     width: 100%;
   }
-  h1 {
-    color: white;
+  .hr-wrapper {
+    margin: 0 5%;
   }
-  .hr-sect::before,
-  .hr-sect::after {
-    background: rgba(255, 255, 255, 0.35); /* white heading */
-    height: 2px;
+  h1 {
+    margin-bottom: 0;
+  }
+  .line {
+    border: 6px solid #C4C4C4;
+    width: 200px;
+    margin: 10px 0;
   }
 </style>

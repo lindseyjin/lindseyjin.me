@@ -1,7 +1,7 @@
 <template>
   <div class="website-section">
     <div class="hr-sect">
-      <h1>CONTACT ME</h1>
+      <h1>Contact Me</h1>
     </div>
     <div class="contact">
       <div class="contact-item">

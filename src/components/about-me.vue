@@ -75,7 +75,9 @@ export default {
   }
   .line {
     border: 1px solid #C4C4C4;
-    margin: 30px 0 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 300px;
   }
   .btn-icon {
     display: inline-block;
@@ -114,9 +116,6 @@ export default {
     .about-text {
       text-align: left;
     }
-    .line {
-      width: 300px;
-    }
   }
   /* phone */
   @media (max-width: 600px) {
@@ -128,9 +127,12 @@ export default {
       display: block;
     }
     img {
-      opacity: 1;
       width: 80%;
       margin: 20px;
+    }
+    .line {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 </style>

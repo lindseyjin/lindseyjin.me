@@ -35,6 +35,34 @@ export default {
 </script>
 
 <style scoped>
+ .app-container {
+    background-image: url("../../static/img/Frame.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #name {
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #fdf9f1;
+    margin: 20px 0;
+    text-shadow: 2px 6px 6px rgba(0,0,0,0.3);
+  }
+
+  .btn-link {
+    border: 2px solid #fbf4e4;
+    border-radius: 50%;
+    color: #fdf9f1;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    width: 72px;
+    height: 72px;
+  }
   /* phone */
   @media (max-width: 600px) {
     #name {
@@ -97,34 +125,5 @@ export default {
       background-color:#7e5876;
       box-shadow: 0 9px 28px rgba(90, 90, 90, 0.3), 0 15px 12px rgba(83, 83, 83, 0.22);
     }
-  }
-
-  .app-container {
-    background-image: url("../../static/img/Frame.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  #name {
-    position: relative;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    color: #fdf9f1;
-    margin: 20px 0;
-    text-shadow: 2px 6px 6px rgba(0,0,0,0.3);
-  }
-
-  .btn-link {
-    border: 2px solid #fbf4e4;
-    border-radius: 50%;
-    color: #fdf9f1;
-    padding: 10px 15px;
-    margin: 10px 20px;
-    font-size: 40px;
-    cursor: pointer;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-    width: 72px;
-    height: 72px;
   }
 </style>
