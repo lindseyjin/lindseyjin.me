@@ -6,7 +6,7 @@
       </div>
     <div class="about">
       <img
-        src="../../static/img/pic_me.jpg"
+        src="/../../static/img/pic_me.jpg"
         alt="Avatar"
       >
       <div class="about-text">
@@ -53,23 +53,12 @@ export default {
 };
 </script>
 <style scoped>
-  .wrapper {
-    width: 850px;
-    margin: auto;
-  }
   .about {
-    display: inline-flex;
-    justify-content: center; 
     align-items: center; 
-  }
-  .heading {
-    text-align: left;
-    margin: 80px 10px;
   }
   img {
     animation: opacity-decrease 0.4s;
     opacity: 0.9;
-    width: 200px;
     border-radius: 50%;
   }
   img:hover {
@@ -84,12 +73,8 @@ export default {
     from { opacity: 1; }
     to   { opacity: 0.9; }
   }
-  .about-text {
-    text-align: left;
-  }
   .line {
     border: 1px solid #C4C4C4;
-    width: 300px;
     margin: 30px 0 15px;
   }
   .btn-icon {
@@ -102,35 +87,50 @@ export default {
   .btn-icon:hover {
     color: #727272;
   }
-
+  /* desktop */
   @media (min-width: 600px) {
     .website-section {
       text-align: center;
       padding: 5% 5% 15%;
     }
-    .content {
-      margin: 40px 0;
-      display: flex;
+    .wrapper {
+      width: 850px; 
+      max-width: 70%;
+      margin: auto;
+    }
+    .about {
+      display: inline-flex;
       justify-content: center; 
-      align-items: center;
-      color: #444344;  /* text color */
+    }
+    .heading {
+      text-align: left;
+      margin: 80px 10px;
     }
     img {
+      width: 280px;
+      max-width: 50%;
+      margin: 0 80px 10px 0;
+    }
+    .about-text {
+      text-align: left;
+    }
+    .line {
       width: 300px;
-      margin-right: 80px;
     }
   }
+  /* phone */
   @media (max-width: 600px) {
-    .content {
+    .wrapper {
+      margin: 80px 20px;
       text-align: center;
-      color: #444344;  /* text color */
-      padding: 0 30px 50px;
+    }
+    .about {
+      display: block;
     }
     img {
+      opacity: 1;
       width: 80%;
-      /* border: 6px solid #ae98aa; */
-      text-align: center;
-      margin-bottom: 20px;
+      margin: 20px;
     }
   }
 </style>

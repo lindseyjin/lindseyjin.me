@@ -35,23 +35,43 @@ export default {
 </script>
 
 <style scoped>
-  @media (min-width: 1000px) {
+  /* phone */
+  @media (max-width: 600px) {
     #name {
-      font-size: 120px;
+      font-size: 23vw;
     }
     .content-wrapper {
-      width: 900px;
-      margin: auto;
+      text-align: center;
+      padding: 50px 0;
+    }
+    #intro {
+      visibility: hidden;
+    }
+    .btn-link {
+      background-color: rgb(134,105,140);
     }
   }
+
+  /* tablet */
   @media (min-width: 600px) and (max-width: 1000px) {
     #name {
       font-size: 15vw;
     }
   }
+
+  @media (min-width: 1000px) {
+    #name {
+      font-size: 100px;
+    }
+    .content-wrapper {
+      width: 800px;
+      margin: auto;
+    }
+  }
+
   @media (min-width: 600px) {
     .app-container {
-      height: 105vh;
+      height: 110vh;
     }
     .content-wrapper {
       background: rgba(255,255,255, 0.3);
@@ -78,24 +98,9 @@ export default {
       box-shadow: 0 9px 28px rgba(90, 90, 90, 0.3), 0 15px 12px rgba(83, 83, 83, 0.22);
     }
   }
-  @media (max-width: 600px) {
-    #name {
-      font-size: 23vw;
-    }
-    .content-wrapper {
-      text-align: center;
-      padding: 50px 0;
-    }
-    #intro {
-      visibility: hidden;
-    }
-    .btn-link {
-      background-color: rgb(134,105,140);
-    }
-  }
 
   .app-container {
-    background-image: url("../../static/img/Header.svg");
+    background-image: url("../../static/img/Frame.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,10 +109,10 @@ export default {
   #name {
     position: relative;
     font-family: 'Open Sans';
-    font-weight: 800;
+    font-weight: 700;
     color: #fdf9f1;
     margin: 20px 0;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 6px 6px rgba(0,0,0,0.3);
   }
 
   .btn-link {

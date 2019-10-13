@@ -2,14 +2,6 @@
   <div>
     <Header/>
     <AboutMe/>
-    <!-- <Skills/> -->
-    <!-- <div id="navbar">
-      <a href="#about">Home</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div> -->
-    <!-- <router-view /> -->
     <Projects/>
     <ContactMe/>
   </div>
