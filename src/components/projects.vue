@@ -2,7 +2,7 @@
   <div class="website-section">
     <div class="hr-wrapper">
       <h1>Projects</h1>
-      <div class="line"/>
+      <div class="line-thick line"/>
       <p>Here are some of my projects that I've worked on in the past. </p>
     </div>
     <div class="projects">
@@ -157,14 +157,12 @@
     width: 100%;
   }
   .hr-wrapper {
-    margin: 0 5%;
+    margin: 0 2%;
   }
   h1 {
     margin-bottom: 0;
   }
   .line {
-    border: 6px solid #C4C4C4;
     width: 200px;
-    margin: 10px 0;
   }
 </style>

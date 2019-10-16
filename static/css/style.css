@@ -25,3 +25,15 @@ a:link {
 a:hover{
   text-decoration: underline;
 }
+
+/* Lines  */
+.line-thin {
+  border: 1px solid #C4C4C4;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.line-thick {
+  border: 6px solid #C4C4C4;
+  margin: 10px 0;
+}

@@ -22,7 +22,7 @@
         <p>
           Feel free to reach out to me if you'd like to chat. Thanks for dropping by!
         </p>
-        <div class="line"/>
+        <div class="line-thin line"/>
                 <a href="https://github.com/lindseyjin" target="_blank">
           <div class="btn-icon">
             <span> <i class="fab fa-github"></i></span>
@@ -74,9 +74,6 @@ export default {
     to   { opacity: 0.9; }
   }
   .line {
-    border: 1px solid #C4C4C4;
-    margin-top: 30px;
-    margin-bottom: 15px;
     width: 300px;
   }
   .btn-icon {

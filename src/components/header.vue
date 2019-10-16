@@ -106,7 +106,7 @@ export default {
       position: relative;
       text-align: center;
       padding: 40px 0;
-      top: 50%;
+      top: 45%;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);

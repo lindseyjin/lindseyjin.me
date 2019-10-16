@@ -2,7 +2,7 @@
   <div class="col card">
     <div class="card-img-container">
       <img v-if="this.projectData.images[0]" class="card-img" :src="this.projectData.images[0]" :alt="projectData.name" />
-      <img v-if="this.projectData.images[1]" class="card-img show-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
+      <img v-if="this.projectData.images[1]" class="card-img hide-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
     </div> 
     <img v-if="!this.projectData.images[0]" class="card-img" :src="defaultImg" alt="image not found" />
     <div class="card-body">
@@ -48,8 +48,8 @@
   }
   @media (min-width: 800px) {
     .card {
-      width: 30%;
-      margin: 1.5%;
+      width: 33%;
+      margin: 1%;
     }
   }
   h4 {
@@ -61,22 +61,22 @@
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    border-radius: 15px;
+    border-radius: 10px;
     background: #fff;
     position: relative;
     overflow: hidden;
   }
   .card-img {
     width: 100%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 10px 10px 0 0;
     border-bottom: 2px transparent;
   }
-  .show-on-hover {
+  .hide-on-hover {
     position: absolute;
     top: 0;
-    display: auto;
+    display: flex;
   }
-  .card-img-container:hover .show-on-hover{
+  .card-img-container:hover .hide-on-hover{
     opacity: 0;
     transition: opacity .5s ease-out;
   }

@@ -2,6 +2,7 @@
   <div class="website-section">
     <div class="hr-sect">
       <h1>Contact Me</h1>
+      <div class=""/>
     </div>
     <div class="contact">
       <div class="contact-item">
@@ -43,9 +44,16 @@ export default {
     padding: 5% 5% 10%;
     text-align: center;
   }
+  h1{
+    margin-bottom: 0;
+  }
+  .line {
+    width: 240px;
+    margin: auto;
+  }
   .contact {
-    background: #dfdad8;
-    border-radius: 15px;
+    background: #e3dae1;
+    border-radius: 10px;
     padding: 20px 40px;
     margin: 20px auto;
   }
