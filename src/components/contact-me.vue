@@ -2,7 +2,6 @@
   <div class="website-section">
     <div class="hr-sect">
       <h1>Contact Me</h1>
-      <div class=""/>
     </div>
     <div class="contact">
       <div class="contact-item">

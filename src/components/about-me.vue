@@ -6,13 +6,14 @@
       </div>
     <div class="about">
       <img
-        src="/../../static/img/pic_me.jpg"
+        src="/../../static/img/profile.jpg"
         alt="Avatar"
       >
       <div class="about-text">
         <p>
-          Hi, I'm Lindsey and I'll soon be heading into my third year of Software Engineering student at the University of Waterloo. 
-          I'm currently in search of internships for Summer 2020. 
+          Hi, I'm Lindsey and I'm in my third year of Software Engineering at the University of Waterloo. 
+          Last term, I was on exchange at the National University of Singapore. Currently, I'm
+          an intern at PagerDuty.
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
@@ -20,7 +21,7 @@
           <a href="https://www.goodreads.com/troubledpears" target="_blank">books</a>, board games, coffee, and birds!
         </p>
         <p>
-          Feel free to reach out to me if you'd like to chat. Thanks for dropping by!
+          Feel free to reach out to me through the links below, and thanks for dropping by!
         </p>
         <div class="line-thin line"/>
                 <a href="https://github.com/lindseyjin" target="_blank">
@@ -57,13 +58,10 @@ export default {
     align-items: center; 
   }
   img {
-    animation: opacity-decrease 0.4s;
-    opacity: 0.9;
+    /* animation: opacity-decrease 0.4s; */
+    /* opacity: 0.9; */
     border-radius: 50%;
-  }
-  img:hover {
-    animation: opacity-increase 0.2s;
-    opacity: 1;
+    border: 5px solid #702963;
   }
   @keyframes opacity-increase {
     from { opacity: 0.9; }
