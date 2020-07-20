@@ -1,6 +1,6 @@
 # mywebsite
 
-> Personal website, still under construction!
+> Repo for my [personal website](https://lindseyjin.me)! Don't look too closely at the code pls, it's old and messy :p
 
 ## Build Setup
 
