@@ -5,7 +5,7 @@
     </div>
     <div class="contact">
       <div class="contact-item">
-        <i class="fas fa-envelope"></i> 
+        <i class="fas fa-envelope"></i>
         <a href="mailto:lindseyjinlj@gmail.com">lindseyjinlj@gmail.com</a>
       </div>
       <div class="contact-item">
@@ -13,7 +13,7 @@
         <a href="https://github.com/lindseyjin" target="_blank">github.com/lindseyjin</a>
       </div>
       <div class="contact-item">
-        <i class="fab fa-linkedin"></i> 
+        <i class="fab fa-linkedin"></i>
         <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">linkedin.com/in/lindsey-jin</a>
       </div>
     </div>
@@ -22,11 +22,11 @@
 
 <script>
 export default {
-  name: "ContactMe",
-  data() {
-    return {};
+  name: 'ContactMe',
+  data () {
+    return {}
   }
-};
+}
 </script>
 <style scoped>
   @media (min-width: 800px) {

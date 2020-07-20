@@ -1,7 +1,7 @@
 <template>
   <div class="website-section">
     <div class="wrapper">
-      <div class="heading"> 
+      <div class="heading">
         <h1> Hello there! </h1>
       </div>
     <div class="about">
@@ -11,13 +11,13 @@
       >
       <div class="about-text">
         <p>
-          Hi, I'm Lindsey and I'm in my third year of Software Engineering at the University of Waterloo. 
+          Hi, I'm Lindsey and I'm in my third year of Software Engineering at the University of Waterloo.
           Last term, I was on exchange at the National University of Singapore. Currently, I'm
           an intern at PagerDuty.
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
-          Outside of programming, my interests include 
+          Outside of programming, my interests include
           <a href="https://www.goodreads.com/troubledpears" target="_blank">books</a>, board games, coffee, and birds!
         </p>
         <p>
@@ -47,15 +47,15 @@
 
 <script>
 export default {
-  name: "AboutMe",
-  data() {
-    return {};
+  name: 'AboutMe',
+  data () {
+    return {}
   }
-};
+}
 </script>
 <style scoped>
   .about {
-    align-items: center; 
+    align-items: center;
   }
   img {
     /* animation: opacity-decrease 0.4s; */
@@ -91,13 +91,13 @@ export default {
       padding: 5% 5% 15%;
     }
     .wrapper {
-      width: 850px; 
+      width: 850px;
       max-width: 70%;
       margin: auto;
     }
     .about {
       display: inline-flex;
-      justify-content: center; 
+      justify-content: center;
     }
     .heading {
       text-align: left;

@@ -3,7 +3,7 @@
     <div class="card-img-container">
       <img v-if="this.projectData.images[0]" class="card-img" :src="this.projectData.images[0]" :alt="projectData.name" />
       <img v-if="this.projectData.images[1]" class="card-img hide-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
-    </div> 
+    </div>
     <img v-if="!this.projectData.images[0]" class="card-img" :src="defaultImg" alt="image not found" />
     <div class="card-body">
       <span class="heading">{{projectData.name}}</span>
@@ -12,7 +12,7 @@
       <p class="tools"> <i> Tools: {{projectData.tools}} </i> </p>
       <p class="footer">
         <a :v-if="projectData.links.github" :href="projectData.links.github" target="_blank">Github</a>
-        &nbsp;&nbsp;&nbsp; 
+        &nbsp;&nbsp;&nbsp;
         <a v-if="projectData.links.devpost" :href="projectData.links.devpost" target="_blank">Devpost</a>
       </p>
     </div>
@@ -25,18 +25,9 @@
     props: ['projectData'],
     data () {
       return {
-        // imgCounter: 0,
-        // currentImg: this.projectData.images[0],
         defaultImg: '../../static/img/default-image.jpg'
       }
     }
-    // methods: {
-    //   changeImage () {
-    //     this.imgCounter++;
-    //     if (this.imgCounter == this.projectData.images.length) this.imgCounter = 0;
-    //     this.currentImg = this.projectData.images[this.imgCounter];
-    //   }
-    // }
   }
 </script>
 
@@ -85,7 +76,7 @@
   }
   .heading {
     font-size: 22px;
-    font-weight: 700;  
+    font-weight: 700;
     font-family: 'Open Sans';
     color: #7e5876;
     margin-top: 10px;
