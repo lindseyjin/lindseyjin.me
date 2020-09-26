@@ -6,7 +6,7 @@
       </div>
     <div class="about">
       <img
-        src="../../static/img/profile.jpg"
+        src="/../../static/img/profile.jpg"
         alt="Avatar"
       >
       <div class="about-text">
@@ -15,7 +15,7 @@
           I'm in my third year of Software Engineering at the University of Waterloo. 
           Last term, I was on exchange at the National University of Singapore and spending my spare time 
           exploring Southeast Asia. 
-          Currently, I'm an full-stack engineer intern at PagerDuty.
+          Currently, I'm an full-stack developer intern at PagerDuty.
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
