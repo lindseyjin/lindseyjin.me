@@ -1,0 +1,41 @@
+/* TODO: ADD VARIABLES FOR COLORS + PADDING */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  color: #9b9b9b;
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  color: #702963;
+}
+html, body {
+  font-family: 'Muli', sans-serif;
+  font-size: 1em;
+  background-color: #FAFAFA;
+  height: 100vh;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: rgb(130, 31, 134);
+}
+a:link {
+  color: #b23ee0; /* unvisited link */
+  /* color: rgb(130, 31, 134); */
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/* Lines  */
+.line-thin {
+  border: 1px solid #C4C4C4;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.line-thick {
+  border: 6px solid #C4C4C4;
+  margin: 10px 0;
+}
