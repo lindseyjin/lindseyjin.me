@@ -11,9 +11,8 @@
       >
       <div class="about-text">
         <p>
-          Hi, I'm Lindsey and I'm in my third year of Software Engineering at the University of Waterloo.
-          Last term, I was on exchange at the National University of Singapore. Currently, I'm
-          an intern at PagerDuty.
+          Hi, I'm Lindsey! 
+          I'm about to enter my fourth year of Software Engineering at the University of Waterloo.
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
