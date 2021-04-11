@@ -23,7 +23,7 @@
           Feel free to reach out to me through the links below, and thanks for dropping by!
         </p>
         <div class="line-thin line"/>
-                <a href="https://github.com/lindseyjin" target="_blank">
+        <a href="https://github.com/lindseyjin" target="_blank">
           <div class="btn-icon">
             <span> <i class="fab fa-github"></i></span>
           </div>

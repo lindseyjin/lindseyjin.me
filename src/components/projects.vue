@@ -147,16 +147,17 @@
     }
   }
   .website-section {
-    padding: 5% 5% 15%;
+    padding: 5% 5% 5%;
     overflow: auto;
     background: #EDEDED;
   }
+  .projects {
+    margin: 0 -1%;
+  }
   .row {
     display: flex;
+    justify-content: space-between;
     width: 100%;
-  }
-  .hr-wrapper {
-    margin: 0 2%;
   }
   h1 {
     margin-bottom: 0;
