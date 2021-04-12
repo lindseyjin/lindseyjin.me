@@ -2,7 +2,7 @@
   <div class="col card">
     <div class="card-img-container">
       <img v-if="this.projectData.images[0]" class="card-img" :src="this.projectData.images[0]" :alt="projectData.name" />
-      <img v-if="this.projectData.images[1]" class="card-img hide-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
+      <img v-if="this.projectData.images[1]" class="card-img show-on-hover" :src="this.projectData.images[1]" :alt="projectData.name" />
     </div>
     <img v-if="!this.projectData.images[0]" class="card-img" :src="defaultImg" alt="image not found" />
     <div class="card-body">
@@ -39,7 +39,7 @@
   }
   @media (min-width: 800px) {
     .card {
-      width: 33%;
+      width: 30vw;
       margin: 1%;
     }
   }
@@ -57,15 +57,27 @@
     position: relative;
     overflow: hidden;
   }
-  .card-img {
-    width: 100%;
+  .card-img-container {
+    width: 30vw;
+    height: 18vw;
+    object-fit:contain;
     border-radius: 10px 10px 0 0;
     border-bottom: 2px transparent;
+    overflow: hidden;
+  }
+  .card-img {
+    height: auto;
+    width: 100%;
   }
   .hide-on-hover {
-    position: absolute;
     top: 0;
     display: flex;
+  }
+  .hide {
+    display: none;
+  }
+  .hide:hover {
+    display: block;
   }
   .card-img-container:hover .hide-on-hover{
     opacity: 0;

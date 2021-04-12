@@ -8,27 +8,35 @@
     <div class="projects">
         <div class="row">
           <ProjectCard
+            :project-data="ritualRewind"
+          />
+          <ProjectCard
+            :project-data="binairoSolver"
+          />
+          <ProjectCard
             :project-data="lift"
           />
+        </div>
+        <div class="row">
           <ProjectCard
             :project-data="passportPlus"
           />
           <ProjectCard
             :project-data="bashTheBallot"
           />
+          <ProjectCard
+            :project-data="fruityFun"
+          />
         </div>
-        <div class='row'>
+        <!-- <div class='row'>
           <ProjectCard
             :project-data="tutorConnect"
           />
           <ProjectCard
             :project-data="deScribe"
           />
-          <ProjectCard
-            :project-data="fruityFun"
-          />
         </div>
-        <!-- <div class='row'>
+        <div class='row'>
           <ProjectCard
           url='../../static/img/default-image.jpg'
           name='My Github Favs'
@@ -55,6 +63,17 @@
     components: {ProjectCard},
     data () {
       return {
+        ritualRewind: {
+          images: [
+            '../../static/img/ritual-rewind.mp4',
+          ],
+          video: '../../static/img/ritual-rewind.mp4',
+          name:'Ritual Rewind',
+          subheading:'Winner at internal company Hackathon',
+          desc: 'Fitbit app that tracks a users workout progress! Data is displayed on a companion web app that shows real time biometrics.',
+          tools: 'Fitbit SDK, Vue.js',
+          links: {}
+        },
         'lift': {
           'images': [
             '../../static/img/lift2.jpg',
@@ -67,6 +86,18 @@
           'links': {
             'github': 'https://github.com/lindseyjin/lift',
             'devpost': 'https://devpost.com/software/lift-ilm43c'
+          }
+        },
+        'binairoSolver': {
+          images: [
+            '../../static/img/lift2.jpg',
+          ],
+          name:'Binairo Solver',
+          subheading:'Winner at Hack the North 2018',
+          desc: 'Fitbit app that tracks a users workout progress! Data is displayed on a companion web app that shows real time biometrics.',
+          tools: 'Fitbit SDK, Vue.js',
+          links: {
+            github:'https://github.com/lindseyjin/lift',
           }
         },
         'passportPlus': {
@@ -156,7 +187,7 @@
   }
   .row {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
   }
   h1 {
