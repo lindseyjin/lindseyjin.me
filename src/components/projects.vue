@@ -47,8 +47,8 @@
           video: '../../static/img/ritual-rewind.mp4',
           name:'Ritual Rewind',
           subheading:'Winner at internal company Hackathon',
-          desc: 'Fitbit app that tracks a users workout progress! Data is displayed on a companion web app that shows real time biometrics.',
-          tools: 'Fitbit SDK, Vue.js',
+          desc: '',
+          tools: 'React',
           links: {}
         },
         binairoSolver: {
@@ -56,11 +56,10 @@
             '../../static/img/lift2.jpg',
           ],
           name:'Binairo Solver',
-          subheading:'Winner at Hack the North 2018',
-          desc: 'Fitbit app that tracks a users workout progress! Data is displayed on a companion web app that shows real time biometrics.',
-          tools: 'Fitbit SDK, Vue.js',
+          desc: 'Web app for solving binairo puzzles of variety of sizes. Supports both light and dark mode!',
+          tools: 'Flask, React',
           links: {
-            github:'https://github.com/lindseyjin/lift',
+            github:'https://github.com/lindseyjin/binairo-solver-web',
           }
         },
         lift: {

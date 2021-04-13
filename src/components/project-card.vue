@@ -43,19 +43,24 @@
   @media (max-width: 800px) {
     .card {
       width: 100%;
+      margin: 20px 10px;
+    }
+    .card-img {
+      width: 100%;
     }
   }
   @media (min-width: 800px) {
     .card {
-      width: 33%;
-      margin: 1%;
+      width: 100%;
+      margin: 10px 0.5vw;
+    }
+    .card-img {
+      width: 29vw;
+      height: 19.5vw;
     }
   }
   h4 {
     margin-top: 0 /* for subtitle */
-  }
-  .col {
-    margin-bottom: 20px;
   }
   .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -66,7 +71,6 @@
     overflow: hidden;
   }
   .card-img {
-    width: 100%;
     border-radius: 10px 10px 0 0;
     border-bottom: 2px transparent;
   }
