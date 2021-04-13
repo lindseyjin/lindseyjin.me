@@ -1,32 +1,35 @@
 <template>
   <div class="website-section">
-    <div class="hr-sect">
-      <h1>Contact Me</h1>
+    <div class="bottom-text">
+      © Lindsey Jin 2021, Made with ♥ 
     </div>
-    <div class="contact">
-      <div class="contact-item">
-        <i class="fas fa-envelope"></i> 
-        <a href="mailto:lindseyjinlj@gmail.com">lindseyjinlj@gmail.com</a>
-      </div>
-      <div class="contact-item">
-        <i class="fab fa-github"></i>
-        <a href="https://github.com/lindseyjin" target="_blank">github.com/lindseyjin</a>
-      </div>
-      <div class="contact-item">
-        <i class="fab fa-linkedin"></i> 
-        <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">linkedin.com/in/lindsey-jin</a>
-      </div>
+    <div>
+      <a href="https://github.com/lindseyjin" target="_blank">
+        <div class="btn-icon">
+          <span> <i class="fab fa-github"></i></span>
+        </div>
+      </a>
+      <a href="https://linkedin.com/in/lindsey-jin/" target="_blank">
+        <div class="btn-icon">
+          <span> <i class="fab fa-linkedin"></i></span>
+        </div>
+      </a>
+      <a href="./../../static/docs/Resume.pdf" target="_blank">
+        <div class="btn-icon">
+          <span> <i class="fas fa-file"></i></span>
+        </div>
+      </a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "ContactMe",
-  data() {
-    return {};
+  name: 'ContactMe',
+  data () {
+    return {}
   }
-};
+}
 </script>
 <style scoped>
   @media (min-width: 800px) {
@@ -40,27 +43,24 @@ export default {
     }
   }
   .website-section {
-    padding: 5% 5% 10%;
+    background: #EDEDED;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5% 15px;
     text-align: center;
   }
-  h1{
-    margin-bottom: 0;
+  .bottom-text {
+    margin-top: 6px;
+    font-family: 'Muli', sans-serif;
   }
-  .line {
-    width: 240px;
-    margin: auto;
+  .btn-icon {
+    display: inline-block;
+    color: #949494;
+    cursor: pointer;
+    margin-left: 15px;
+    font-size: 25px;
   }
-  .contact {
-    background: #e3dae1;
-    border-radius: 10px;
-    padding: 20px 40px;
-    margin: 20px auto;
-  }
-  .contact-label {
-    padding-bottom: 10px;
-  }
-  .contact-item {
-    font-size: 16px;
-    margin: 10px 0;
+  .btn-icon:hover {
+    color: #727272;
   }
 </style>

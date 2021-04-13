@@ -156,7 +156,7 @@
     }
   }
   .website-section {
-    padding: 5% 5% 15%;
+    padding: 5% 5% 5%;
     overflow: auto;
     background: #EDEDED;
   } 

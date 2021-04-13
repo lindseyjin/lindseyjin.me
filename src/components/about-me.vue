@@ -12,10 +12,7 @@
       <div class="about-text">
         <p>
           <span style="font-size: 1.2em; color: #702963; font-weight: bold;">Hi, I'm Lindsey! </span> 
-          I'm in my third year of Software Engineering at the University of Waterloo. 
-          Last term, I was on exchange at the National University of Singapore and spending my spare time 
-          exploring Southeast Asia. 
-          Currently, I'm an full-stack developer intern at PagerDuty.
+          I'm a fourth year  Software Engineering student at the University of Waterloo. 
         </p>
         <p>
           I love learning new things and experimenting with different tools and frameworks, through personal projects and attending <a href="https://devpost.com/lindseyjin" target="_blank">hackathons</a>.
