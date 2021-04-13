@@ -46,20 +46,22 @@
           ],
           video: '../../static/img/ritual-rewind.mp4',
           name:'Ritual Rewind',
-          subheading:'Winner at internal company Hackathon',
-          desc: '',
+          subheading: 'Winner at internal company Hackathon',
+          desc: 'Company hackathon project for viewing your past year of Ritual order history/trends in a fun and animated way, inspired by Spotify Wrapped.',
           tools: 'React',
           links: {}
         },
         binairoSolver: {
           images: [
-            '../../static/img/lift2.jpg',
+            '../../static/img/binairo1.png',
+            '../../static/img/binairo2.png',
           ],
           name:'Binairo Solver',
-          desc: 'Web app for solving binairo puzzles of variety of sizes. Supports both light and dark mode!',
+          desc: 'Web app for solving Binairo logic puzzles of a variety of sizes using an optimized backtracking algorithm. Supports both light and dark mode.',
           tools: 'Flask, React',
           links: {
             github:'https://github.com/lindseyjin/binairo-solver-web',
+
           }
         },
         lift: {
